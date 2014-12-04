@@ -239,6 +239,16 @@ a {
 
 #Sub-Nav {
     display: none;
+    padding-left: .312em;
+    padding-right: .312em;
+    padding-bottom: .612em;
+    }
+
+    #subNavMenu{
+        border-top: .225em solid black;
+        border-bottom:  .225em solid black;
+        height: auto;
+        width: 100%;
     }
 
     .sub-nav ul {
@@ -250,7 +260,9 @@ a {
     }
 
     .sub-nav li {
-        width: 33% !important;
+        width: 33%;
+        display: inline-block;
+        float: left;
     }
 
     .sub-nav li ul li a {
@@ -274,11 +286,35 @@ a {
         background: black;
     }
 
+#wordDay {
+    padding-left: .312em;
+    padding-bottom: 1.312em;
+    width: 90%;
+    float: right;
+}
+
+    .word {
+        font-size: 1.3em;
+    }
+
+    .word span {
+        font-size: .8em;
+        font-weight: 400;
+    }
+
+    .wordDef {
+        
+    }
+
 
 #Blog-feed {
     padding-left: .312em;
     padding-right: .312em;
 }
+
+    .feed-article {
+        padding-top: .812em;
+    }
 
     .feed-article div {
         height: 150px;
@@ -377,8 +413,8 @@ a {
     padding-bottom: .3125em;
 }
 
-.foot-top li:hover {
-    color: red;
+.foot-top a:hover {
+    border-bottom: 2px solid black;
 }
 
 .foot-email {
