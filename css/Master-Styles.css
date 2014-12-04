@@ -701,3 +701,6 @@ input[type=checkbox]:checked ~ #menu{
     text-align: center;
     margin: 20%;
 }
+.bigName span{
+    font-size: .6em
+}
