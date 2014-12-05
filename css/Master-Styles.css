@@ -138,8 +138,7 @@ a {
 
 /* main styles
 ----------------------------------------*/
-    .Hed-img{
-      background-image: src=".img/snow_dog.jpg";
+    .Hed{
       background-size: 100%;
       height: 20.4375em;
       width: 100%;
@@ -148,11 +147,23 @@ a {
       box-sizing: border-box;
       margin-bottom: 1em;
     }
+#Hed-img{
+    background-image: url('img/snow_dog.jpg');
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+    .imgBox {
+        position: absolute;
+        float: left;
+        background-size: cover;
+        background-position: center center;
+    }
 
 #SideBar {
     display: none;
     margin-left: 1em;
-}
+    }
 
     .MoodsBar {
         width: 100%;
@@ -174,7 +185,6 @@ a {
         padding-bottom: 1.5555em;
         padding-left: .312em;
         box-sizing: border-box;
-        left: 3.5%;
     }
 
     .MC-item-post h4{
@@ -191,8 +201,12 @@ a {
     .MC-item-img {
         width: 100%;
         height: 11.8125em;
-        padding-bottom: .5em;
-        background-color: rgba(186, 218, 85, .5);
+        margin-bottom: .5em;
+        overflow: hidden;
+    }
+
+    .MC-item-img img {
+        width: 100%;
     }
 
 #SideBar-Right {
@@ -287,6 +301,7 @@ a {
     }
 
 #wordDay {
+    padding-right: .312em;
     padding-left: .312em;
     padding-bottom: 1.312em;
     width: 90%;
@@ -322,6 +337,15 @@ a {
         height:150px;
         width: 100%;
         background-color: blue;
+        overflow: hidden;
+    }
+
+    .feedImg img {
+        width: 100%;
+    }
+
+    .imgHover {
+        background-color: rgba: (255, 255, 255, .7);
     }
 
     .feedCopy {
@@ -339,6 +363,10 @@ a {
         padding-top: .3em;
         padding-bottom: .2em;
         letter-spacing: .05em;
+    }
+
+    .feedCopy a:hover {
+        border-bottom: 2px solid black;
     }
 
 #Shop-Item {
@@ -559,6 +587,7 @@ input[type=checkbox]:checked ~ #menu{
     #MC-item {
         width 50%;
         display: inline-block;
+        padding-left: .812em;
     }
     
     .MC-item-post{   
@@ -710,10 +739,6 @@ input[type=checkbox]:checked ~ #menu{
         display: inline-block;
     }
     
-    .MC-item-post{   
-        width: 60%;
-    }
-    
     .MC-item-img {
         width: 35%;
         float: right;
@@ -766,11 +791,6 @@ input[type=checkbox]:checked ~ #menu{
     
     .MC-item-img {
         width: 34%;
-    }
-    
-    .MC-item-post {
-        width: 60%;
-        float: right;
     }
     
     #SideBar-Right {
