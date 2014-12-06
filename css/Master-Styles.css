@@ -336,12 +336,16 @@ a {
     .feedImg {
         height:150px;
         width: 100%;
-        background-color: blue;
         overflow: hidden;
     }
 
     .feedImg img {
         width: 100%;
+    }
+
+    .artcImg {
+        width: 100%;
+        overflow: hidden;
     }
 
     .imgHover {
