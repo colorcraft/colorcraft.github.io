@@ -1,0 +1,14 @@
+/*
+------   Shop Item Images   -----
+*/
+
+
+/*#choco-chip {
+    height: 130px;
+    width: 130px;
+    background: url("../img/ice-cream-1.png") no-repeat;
+}*/
+
+#choco-chip:hover {
+    background: url("../img/ice-cream-2.png") no-repeat;
+}

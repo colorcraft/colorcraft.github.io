@@ -46,7 +46,7 @@ a {
 
 }
 
-/* nav */
+/*---------- Nav -----------*/
 
 #Nav {
   width: 100%;
@@ -135,122 +135,6 @@ a {
     font-weight: 100;
 }
 
-
-/* main styles
-----------------------------------------*/
-    .Hed{
-      background-size: 100%;
-      height: 20.4375em;
-      width: 100%;
-      padding-bottom: 2.5em;
-      border-bottom: .3125em solid black;
-      box-sizing: border-box;
-      margin-bottom: 1em;
-    }
-#Hed-img{
-    background-image: url('img/snow_dog.jpg');
-    background-repeat: repeat-x;
-    overflow: hidden;
-}
-
-    .imgBox {
-        position: absolute;
-        float: left;
-        background-size: cover;
-        background-position: center center;
-    }
-
-#SideBar {
-    display: none;
-    margin-left: 1em;
-    }
-
-    .MoodsBar {
-        width: 100%;
-        float: left;
-        font-size: 1em;
-        line-height: 1.2em;
-        box-sizing: border-box;
-        word-wrap: break-word;
-    }
-
-#MC-item {
-    width: 100%;
-    float: left;
-    box-sizing: border-box;
-}
-
-    .MC-item-post{   
-        width: 100%;
-        padding-bottom: 1.5555em;
-        padding-left: .312em;
-        box-sizing: border-box;
-    }
-
-    .MC-item-post h4{
-        font-size: 1.2222em;
-        font-weight: 100;
-        padding-bottom: .5555em;
-    }
-
-    .MC-item-post h3{
-        font-size: 1.4444em;
-        padding-bottom: .5555em;
-    }
-
-    .MC-item-img {
-        width: 100%;
-        height: 11.8125em;
-        margin-bottom: .5em;
-        overflow: hidden;
-    }
-
-    .MC-item-img img {
-        width: 100%;
-    }
-
-#SideBar-Right {
-    box-sizing: border-box;
-    display: none;
-    margin-right: 1em;
-}
-
-    .Blog-links {
-        box-sizing: border-box;
-        padding-top: 1.8em;
-        float: left;
-    }
-
-#shop{
-    padding-left: .312em;
-}
-
-    .shop-item-left {
-
-    }
-
-    .shop-item-right {
-
-    }
-
-    .circle {
-        height: 310px;
-        width: 310px;
-        border-radius: 100%;
-        background-color: black;
-        margin-left: .38em;
-        overflow: hidden;
-    }
-
-    .circle-2 {
-        height: 310px;
-        width: 310px;
-        border-radius: 100%;
-        background-color: black;
-        margin-left: .38em;
-        overflow: hidden;
-    }
-
 #Sub-Nav {
     display: none;
     padding-left: .312em;
@@ -299,6 +183,186 @@ a {
         color: white;
         background: black;
     }
+
+
+/* main styles
+----------------------------------------*/
+    
+
+/*--------Headers----------*/
+.Hed{
+      background-size: 100%;
+      height: 20.4375em;
+      width: 100%;
+      padding-bottom: 2.5em;
+      border-bottom: .3125em solid black;
+      box-sizing: border-box;
+      margin-bottom: 1em;
+    }
+#Hed-img{
+    background-image: url('../img/snow_dog.jpg');
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+    .imgBox {
+        position: absolute;
+        float: left;
+        background-position: center center;
+        height: 46%;
+        width: 100%;
+    }
+
+
+/*-------Sidebar--------*/
+
+#SideBar {
+    display: none;
+    margin-left: 1em;
+    }
+
+    .MoodsBar {
+        width: 100%;
+        float: left;
+        font-size: 1em;
+        line-height: 1.2em;
+        box-sizing: border-box;
+        word-wrap: break-word;
+    }
+#SideBar-Right {
+    box-sizing: border-box;
+    display: none;
+    margin-right: 1em;
+}
+
+    .Blog-links {
+        box-sizing: border-box;
+        padding-top: 1.8em;
+        float: left;
+    }
+
+
+
+#MC-item {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+    .MC-item-post{   
+        width: 100%;
+        padding-bottom: 1.5555em;
+        padding-left: .312em;
+        box-sizing: border-box;
+    }
+
+    .MC-item-post h4{
+        font-size: 1.2222em;
+        font-weight: 100;
+        padding-bottom: .5555em;
+    }
+
+    .MC-item-post h3{
+        font-size: 1.4444em;
+        padding-bottom: .5555em;
+    }
+
+    .MC-item-img {
+        width: 100%;
+        height: 11.8125em;
+        margin-bottom: .5em;
+        overflow: hidden;
+    }
+
+    .MC-item-img img {
+        width: 100%;
+    }
+
+
+
+/*-----------  Shop Items ------------*/
+
+#shop{
+    z-index: 10;
+    padding-left: .312em;
+}
+
+    .shop-item-left {
+
+    }
+
+    .shop-item-right {
+
+    }
+
+    .circle {
+        height: 310px;
+        width: 310px;
+        border-radius: 100%;
+        background-color: black;
+        margin-left: .38em;
+        overflow: hidden;
+    }
+
+    .circle-2 {
+        width: 310px;
+        overflow: hidden;
+        padding-bottom: 1em;
+        float: right;
+    }
+
+    .shop-circle {
+        height: 310px;
+        width: 310px;
+        border-radius: 100%;
+        margin-left: .38em;
+        overflow: hidden;
+    }
+
+#Shop-Item {
+    width: 100%;
+    overflow: hidden;
+}
+
+    .shop-Item-inner{
+        width: 95%;
+        margin: auto;
+    }
+    
+    .item-specs {
+        padding-bottom: 2em;
+        margin-top: 20em
+    }
+
+    .item-specs h2 {
+        font-size: 1.325em;
+        line-height: .957em;
+        padding-bottom: .5em;
+    }
+
+    .item-specs h2 span {
+        font-weight: 100;
+    }
+
+    .item-specs p {
+        line-height: .955em;
+    }
+
+    .item-specs p span {
+        font-size: .8em;
+        line-height: 2.5em;
+    }
+
+    .item-price {
+    }
+
+    .back-btn {
+        font-size: 3em;
+        margin-bottom: .2em;
+    }
+
+
+
 
 #wordDay {
     padding-right: .312em;
@@ -373,41 +437,6 @@ a {
         border-bottom: 2px solid black;
     }
 
-#Shop-Item {
-    padding-left: .312em;
-    overflow: hidden;
-}
-    
-    .item-specs {
-        padding-bottom: 2em;
-    }
-
-    .item-specs h2 {
-        font-size: 1.525em;
-        line-height: .957em;
-        padding-bottom: .5em;
-    }
-
-    .item-specs h2 span {
-        font-weight: 100;
-    }
-
-    .item-specs p {
-        line-height: .955em;
-    }
-
-    .item-specs p span {
-        font-size: .8em;
-        line-height: 2.5em;
-    }
-
-    .item-price {
-    }
-
-    .back-btn {
-        font-size: 3em;
-        margin-bottom: .2em;
-    }
 
 #Work {
     padding-left: .312em;
@@ -574,10 +603,6 @@ input[type=checkbox]:checked ~ #menu{
         margin-top: 6.8em;
     }
     
-    #Shop-Item {
-        width: 87%;
-        float: right;
-    }
     .circle-2 {
         height: 340px;
         width: 340px;
@@ -621,9 +646,6 @@ input[type=checkbox]:checked ~ #menu{
         display: block;    
     }
     
-    #Shop-Item {
-        width: 84%;
-    }
     .circle-2 {
         height: 420px;
         width: 420px;
@@ -720,12 +742,11 @@ input[type=checkbox]:checked ~ #menu{
         margin-right: auto;
     }
     
-    #Shop-Item {
-        width: 68%;
-    }
     .circle-2 {
         height: 500px;
         width: 500px;
+        float: right;
+        margin: auto;
     }
     
 }
@@ -756,6 +777,10 @@ input[type=checkbox]:checked ~ #menu{
     .circle {
         height: 308px;
         width: 308px;
+    }
+    
+    #Shop-Item{
+        width: 80%;
     }
     
    .shop-item-left {
