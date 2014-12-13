@@ -12,3 +12,8 @@
 #choco-chip:hover {
     background: url("../img/ice-cream-2.png") no-repeat;
 }
+.choc-chip{
+    background: url("../img/ice-cream-1.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

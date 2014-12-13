@@ -21,13 +21,19 @@ a {
 
 /* page structure ---------------------*/
 
-#wrap {
-
+#contentWrapper {
+    width: 100%;
 }
 
-#main {
-
+#contentInner {
+    width: 95%;
+    margin: auto auto;
 }
+
+#indexWrapper{
+    width: 100%;
+}
+
 
 #secondary {
 
@@ -186,10 +192,10 @@ a {
 
 
 /* main styles
-----------------------------------------*/
+----------------------------------------------------*/
     
-
 /*--------Headers----------*/
+
 .Hed{
       background-size: 100%;
       height: 20.4375em;
@@ -209,7 +215,7 @@ a {
         position: absolute;
         float: left;
         background-position: center center;
-        height: 46%;
+        height: 18em;
         width: 100%;
     }
 
@@ -245,8 +251,6 @@ a {
 
 #MC-item {
     width: 100%;
-    float: left;
-    box-sizing: border-box;
 }
 
     .MC-item-post{   
@@ -282,19 +286,18 @@ a {
 
 /*-----------  Shop Items ------------*/
 
-#shop{
-    z-index: 10;
-    padding-left: .312em;
+.shopFeed{
+    width: 95%;
+    margin: auto;
 }
-
-    .shop-item-left {
-
+    .shopFeed ul{
     }
 
-    .shop-item-right {
-
+    .shopFeed li{
     }
-
+    .shopFeed p{
+        padding-bottom: 1.5em;
+    }
     .circle {
         height: 310px;
         width: 310px;
@@ -314,20 +317,14 @@ a {
     .shop-circle {
         height: 310px;
         width: 310px;
-        border-radius: 100%;
-        margin-left: .38em;
         overflow: hidden;
+        margin: auto;
     }
 
-#Shop-Item {
+.Shop-Item {
     width: 100%;
     overflow: hidden;
 }
-
-    .shop-Item-inner{
-        width: 95%;
-        margin: auto;
-    }
     
     .item-specs {
         padding-bottom: 2em;
@@ -386,15 +383,11 @@ a {
     }
 
 
-#Blog-feed {
-    padding-left: .312em;
-    padding-right: .312em;
+.blog-feed {
     padding-bottom: .812em;
 }
 
     .feed-article {
-        padding-top: .812em;
-        width: 100%;
     }
 
     .feedImg {
@@ -421,7 +414,7 @@ a {
     }
     
     .feedCopy h4 {
-        padding-top: .712em;
+        padding-top: .2em;
         font-size: 1.3em;
         font-weight: 100;
     }
@@ -438,12 +431,9 @@ a {
     }
 
 
-#Work {
-    padding-left: .312em;
-    padding-right: .312em;
-}
+<!------      WORK      ------>
 
-    #Work li {
+    .work-items li {
         display: inline-block;
         width: 100%;
     }
@@ -456,12 +446,13 @@ a {
 
     .work-items h4 {
         font-size: 1.35em;
-        padding-bottom: .4em;
+        padding-bottom: .2em;
     }
 
     .work-items p {
         font-size: .9em;
         padding-top: .3em;
+        padding-bottom: .8em;
     }
 
     .work-items p a {
@@ -470,9 +461,7 @@ a {
     }
     
 /* secondary styles
-----------------------------------------*/
-
-
+-----------------------------------------------------*/
 
 .mobile-title {
     color: red;
@@ -481,7 +470,7 @@ a {
 }
 
 /* footer
-----------------------------------------*/
+-----------------------------------------------------*/
 
 #Foot {
     width: 100%;
@@ -499,7 +488,7 @@ a {
 .foot-top {
     width: 100%;
     padding-bottom: 1em;
-    padding-left: .3125em;
+    padding-left: .8125em;
     box-sizing: border-box;
     display: inline-block;
 }
@@ -520,7 +509,7 @@ a {
 
 .foot-bottom {
     width: 100%;
-    padding-left: .3125em;
+    padding-left: .8125em;
     box-sizing: border-box;
 }
 
@@ -543,7 +532,7 @@ a {
 
 
 /* misc
-----------------------------------------*/
+-----------------------------------------------------*/
 
 hr, .hide {
   display: none;
@@ -583,31 +572,20 @@ input[type=checkbox]:checked ~ #menu{
 }
 
 /* Responsive
-----------------------------------------*/
+-----------------------------------------------------*/
 @media screen and (min-width : 24.1875em) {
 
 .circle {
     width: 220px;
     height: 220px;
     }
-    
-    .shop-item-left{
+    .back-btn{
         float: left;
-        width: 50%
     }
-    
-    .shop-item-right {
-        overflow: hidden;
-        float: right;
-        width: 50%;
-        margin-top: 6.8em;
-    }
-    
     .circle-2 {
         height: 340px;
         width: 340px;
     }
-    
 
 }
 
@@ -651,8 +629,27 @@ input[type=checkbox]:checked ~ #menu{
         width: 420px;
     }
     
-    #Work li {
+    .work-items li {
         width: 49%;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 0em .2em;
+    }
+    .shop-item-left{
+        overflow: hidden;
+        float: left;
+        width: 50%;
+        margin-top: 0em;
+    }
+    .shop-item-right {
+        overflow: hidden;
+        float: right;
+        width: 50%;
+        margin-top: 6.8em;
+    }
+    .shop-circle{
+        height: 15em;
+        width: 15em;
     }
     
 }
@@ -724,12 +721,12 @@ input[type=checkbox]:checked ~ #menu{
     
     .feedImg {
         width: 35%;
-        float: right;
+        float: left;
     }
     
     .feedCopy {
-        width: 65%;
-        float: left;
+        width: 62%;
+        float: right;
     }
     
 }
@@ -753,6 +750,14 @@ input[type=checkbox]:checked ~ #menu{
 
 @media screen and (min-width : 57.75em) {
 
+    #contentWrapper{
+        width: 80%;
+    }
+    
+    #indexWrapper{
+        width: 80%;
+    }
+    
     #SideBar {
         display: block;
         float: left;
@@ -779,12 +784,12 @@ input[type=checkbox]:checked ~ #menu{
         width: 308px;
     }
     
-    #Shop-Item{
-        width: 80%;
+    .Shop-Item{
+        width: 95%;
+        margin: auto;
     }
     
-   .shop-item-left {
-       
+   .shop-item-left {  
    }
     
     .shop-item-right {
@@ -795,27 +800,19 @@ input[type=checkbox]:checked ~ #menu{
         padding-left: .812em;
         padding-right: 1em;
     }
-    
-    #Blog-feed {
-        padding-left: .812em;
-        padding-right: 1em;
-    }
-    
-    #Work {
-        padding-left: .812em;
-        padding-right: 1em;
-    }
-    
+        
 }
 
 @media screen and (min-width : 63.75em) {
 
+    #indexWrapper{
+        width: 65%;
+        float: left;
+    }
+    
     .circle {
         height: 330px;
         width: 330px;
-    }
-    #MC-item{
-        width: 63%;
     }
     
     .MC-item-img {
@@ -826,7 +823,7 @@ input[type=checkbox]:checked ~ #menu{
     box-sizing: border-box;
     display: block;
     float: right;
-    width: 15%;
+    width: 13%;
     }
     
     #shop {
@@ -834,13 +831,11 @@ input[type=checkbox]:checked ~ #menu{
     }
     
     .copyright {
-        
         left: 0em;
         float: left;
     }
     
-    .foot-rights {
-        
+    .foot-rights {   
     }
     
 }
