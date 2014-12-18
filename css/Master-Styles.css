@@ -146,6 +146,7 @@ a {
     padding-left: .312em;
     padding-right: .312em;
     padding-bottom: .612em;
+    box-sizing: border-box;
     }
 
     #subNavMenu{
@@ -292,11 +293,13 @@ a {
 }
     .shopFeed ul{
     }
-
     .shopFeed li{
+        padding-bottom: 2.3em;
     }
     .shopFeed p{
         padding-bottom: 1.5em;
+        position: absolute;
+        top: 101%;
     }
     .circle {
         height: 310px;
@@ -317,8 +320,8 @@ a {
     .shop-circle {
         height: 310px;
         width: 310px;
-        overflow: hidden;
         margin: auto;
+        position: relative;
     }
 
 .Shop-Item {
@@ -366,7 +369,7 @@ a {
     padding-left: .312em;
     padding-bottom: 1.312em;
     width: 90%;
-    float: right;
+    margin-left: 11%;
 }
 
     .word {
@@ -574,61 +577,44 @@ input[type=checkbox]:checked ~ #menu{
 /* Responsive
 -----------------------------------------------------*/
 @media screen and (min-width : 24.1875em) {
-
 .circle {
-    width: 220px;
-    height: 220px;
-    }
-    .back-btn{
-        float: left;
+    width: 13.75em;
+    height: 13.75em;
     }
     .circle-2 {
-        height: 340px;
-        width: 340px;
+        height: 21.25em;
+        width: 21.25em;
     }
-
 }
 
 @media screen and (min-width : 38.25em) {
-
     #MC-item {
         width 50%;
         display: inline-block;
         padding-left: .812em;
     }
-    
     .MC-item-post{   
         width: 60%;
     }
-    
     .MC-item-img {
         width: 35%;
         float: right;
         margin-right: 1em;
     }
-    
     .circle {
-        width: 260px;
-        height: 260px;
+        width: 16.25em;
+        height: 16.25em;
     }
-    
-    div {
-        overflow: hidden;
-    }
-    
     #Sub-Nav {
     display: block;
     }
-    
     .sub-nav-links ul {
         display: block;    
     }
-    
     .circle-2 {
         height: 420px;
         width: 420px;
     }
-    
     .work-items li {
         width: 49%;
         display: inline-block;
@@ -636,7 +622,6 @@ input[type=checkbox]:checked ~ #menu{
         padding: 0em .2em;
     }
     .shop-item-left{
-        overflow: hidden;
         float: left;
         width: 50%;
         margin-top: 0em;
@@ -651,25 +636,20 @@ input[type=checkbox]:checked ~ #menu{
         height: 15em;
         width: 15em;
     }
-    
 }
 
 @media screen and (min-width : 40em) {
-    
     .show-menu {
         display: none;
     }
-    
     .nav-links ul {
         display: block;
     }
-    
     .nav-links  li {
         display: inline-block;
         float: left;
         width: 25%
     }
-    
     .nav-links  li a{
         display: block;
         min-width: 8.75em;
@@ -677,165 +657,137 @@ input[type=checkbox]:checked ~ #menu{
         text-align: center;
         line-height: 3.125em;
     }
-    
     .nav-hed h3 {
         display: block;
         font-size: 2em;
         font-weight: 500;
         float: left;
     }
-    
     .foot-page-links {
         width: 50%;
         float: left;
     }
-    
     .foot-email {
         width: 50%;
         float: right;
     }
-    
     .foot-social {
         float: right;
         width: 50%;
         padding-bottom: 0em;
     }
-    
     .foot-social li {
         padding-bottom: 0em;
     }
-    
     .foot-rights {
         padding-top: 1.3em;
     }
-    
     .shop-item-left {
         float: left;
         width: 50%;
     }
-
     .shop-item-right {
         float: left;
         width: 50%;
     }
-    
     .feedImg {
         width: 35%;
         float: left;
     }
-    
     .feedCopy {
         width: 62%;
         float: right;
     }
-    
+    .shopFeedOdd{
+        margin-top: 2.5em;
+    }
 }
-
+@media screen and (min-width : 47.1875em){
+    .shop-circle{
+        height: 17em;
+        width: 17em;
+    }
+}
 @media screen and (min-width : 51em) {
-
     #Sub-Nav ul {
         width: 75%;
         margin-left: auto;
         margin-right: auto;
     }
-    
     .circle-2 {
         height: 500px;
         width: 500px;
         float: right;
         margin: auto;
     }
-    
+    .shop-circle{
+        width: 20em;
+        height: 20em;
+    }
 }
 
 @media screen and (min-width : 57.75em) {
-
     #contentWrapper{
         width: 80%;
+        float: right;
     }
-    
     #indexWrapper{
         width: 80%;
     }
-    
     #SideBar {
         display: block;
         float: left;
         width: 18%;
     }
-    
     #MC-item {
         width: 80%;
         display: inline-block;
     }
-    
     .MC-item-img {
         width: 35%;
         float: right;
     }
-    
     #shop {
         float: right;
         width: 77%;
     }
-    
     .circle {
         height: 308px;
         width: 308px;
     }
-    
-    .Shop-Item{
-        width: 95%;
-        margin: auto;
-    }
-    
-   .shop-item-left {  
-   }
-    
-    .shop-item-right {
-        margin-left: -3em;
-    }
-    
     #Sub-Nav {
         padding-left: .812em;
         padding-right: 1em;
-    }
-        
+        width: 80%;
+        float: right;
+    }   
 }
 
 @media screen and (min-width : 63.75em) {
-
     #indexWrapper{
         width: 65%;
         float: left;
     }
-    
     .circle {
         height: 330px;
         width: 330px;
     }
-    
     .MC-item-img {
         width: 34%;
     }
-    
     #SideBar-Right {
     box-sizing: border-box;
     display: block;
     float: right;
     width: 13%;
     }
-    
     #shop {
         width: 72%;
     }
-    
     .copyright {
         left: 0em;
         float: left;
     }
-    
     .foot-rights {   
     }
-    
 }
