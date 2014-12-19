@@ -9,11 +9,43 @@
     background: url("../img/ice-cream-1.png") no-repeat;
 }*/
 
-#choco-chip:hover {
-    background: url("../img/ice-cream-2.png") no-repeat;
+
+.shop-circle {
+    height: 310px;
+    width: 310px;
+    margin: auto;
+    position: relative;
+}
+@media screen and (min-width : 38.25em) {
+.shop-circle{
+    height: 15em;
+    width: 15em;
+}
+}
+@media screen and (min-width : 47.1875em){
+.shop-circle{
+    height: 17em;
+    width: 17em;
+}
+}
+@media screen and (min-width : 51em) {
+.shop-circle{
+    width: 20em;
+    height: 20em;
+}
+}
+
+/*-------- Images --------*/
+
+
+.choc-chip-2 {
+    background: url("../img/ice-cream-2.png") no-repeat center center / cover !important;
+    position: relative;
+    z-index: 50;
 }
 .choc-chip{
     background: url("../img/ice-cream-1.png") no-repeat;
     background-size: cover;
     background-position: center center;
+    z-index: 10;
 }
