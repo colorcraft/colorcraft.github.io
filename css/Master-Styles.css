@@ -1,8 +1,6 @@
 /*
 Master Styles for Screen Media
 */
-
-
 body {
   font-family: "Courier Prime", Courier, Courier New, Serif;
   font-size: 1em;
@@ -11,16 +9,12 @@ body {
   width: 100%;
   height: auto;
 }
-
 a {
   outline: none;
   text-decoration: none;
   color: black;
 }
-
-
 /* page structure ---------------------*/
-
 #contentWrapper {
     width: 100%;
 }
@@ -32,37 +26,19 @@ a {
     width: 100%;
     float: left;
 }
-#secondary {
-
-}
-#footer {
-
-}
-
-
+#secondary {}
+#footer {}
 /* header
 ----------------------------------------*/
-
-#logo {
-
-}
-
 /*---------- Nav -----------*/
-
 #Nav {
   width: 100%;
   padding-bottom: .98em;
 }
-
 #Nav {
   display: inline-block;
 }
-
-.nav-hed {
-  margin-left: ;
-  padding-bottom: ;
-}
-
+.nav-hed {}
 .nav-hed h1 {
   font-size: 4.05em;
   font-weight: 500;
@@ -73,11 +49,9 @@ a {
   padding-left: .17em;
   padding-bottom: .3em;
 }
-
 .nav-hed h3 {
     display: none;
 }
-
 #NavMenu {
     border-top: .3125em solid black;
     border-bottom: .3125em solid black;
@@ -138,14 +112,12 @@ a {
     padding-bottom: .612em;
     box-sizing: border-box;
     }
-
     #subNavMenu{
         border-top: .225em solid black;
         border-bottom:  .225em solid black;
         height: auto;
         width: 100%;
     }
-
     .sub-nav ul {
         font-size: .95em;
         list-style-type:none;
@@ -153,19 +125,16 @@ a {
 	    padding:0;
         font-weight: 100;
     }
-
     .sub-nav li {
         width: 33%;
         display: inline-block;
         float: left;
     }
-
     .sub-nav li ul li a {
         width: auto;
         min-width: 6.25em;
         padding: 0em 1.25em;
     }
-
     .sub-nav li a {
         display:block;
         min-width: 8.75em;
@@ -175,18 +144,13 @@ a {
         color: black;
         text-decoration: none;
     }
-
     .sub-nav li:hover a {
         color: white;
         background: black;
     }
-
-
 /* main styles
 ----------------------------------------------------*/
-    
 /*--------Headers----------*/
-
 .Hed{
       background-size: 100%;
       height: 20.4375em;
@@ -201,7 +165,6 @@ a {
     background-repeat: repeat-x;
     overflow: hidden;
 }
-
     .imgBox {
         position: absolute;
         float: left;
@@ -209,15 +172,11 @@ a {
         height: 18em;
         width: 100%;
     }
-
-
 /*-------Sidebar--------*/
-
 #SideBar {
     display: none;
     margin-left: 1em;
     }
-
     .MoodsBar {
         width: 100%;
         float: left;
@@ -231,52 +190,39 @@ a {
     display: none;
     margin-right: 1em;
 }
-
     .Blog-links {
         box-sizing: border-box;
         padding-top: 1.8em;
         float: left;
     }
-
-
-
 #MC-item {
     width: 100%;
 }
-
     .MC-item-post{   
         width: 100%;
         padding-bottom: 1.5555em;
         padding-left: .312em;
         box-sizing: border-box;
     }
-
     .MC-item-post h4{
         font-size: 1.2222em;
         font-weight: 100;
         padding-bottom: .5555em;
     }
-
     .MC-item-post h3{
         font-size: 1.4444em;
         padding-bottom: .5555em;
     }
-
     .MC-item-img {
         width: 100%;
         height: 11.8125em;
         margin-bottom: .5em;
         overflow: hidden;
     }
-
     .MC-item-img img {
         width: 100%;
     }
-
-
-
 /*-----------  Shop Items ------------*/
-
 .shopFeed{
     width: 95%;
     margin: auto;
@@ -299,51 +245,57 @@ a {
         margin-left: .38em;
         overflow: hidden;
     }
-
     .circle-2 {
         width: 310px;
         overflow: hidden;
         padding-bottom: 1em;
         float: right;
     }
-
 .Shop-Item {
     width: 100%;
     overflow: hidden;
 }
-    
     .item-specs {
         padding-bottom: 2em;
         margin-top: 20em
     }
-
     .item-specs h2 {
         font-size: 1.325em;
         line-height: .957em;
         padding-bottom: .5em;
     }
-
     .item-specs h2 span {
         font-weight: 100;
     }
-
     .item-specs p {
         line-height: .955em;
     }
-
     .item-specs p span {
         font-size: .8em;
         line-height: 2.5em;
     }
-
     .item-price {
     }
-
     .back-btn {
         font-size: 3em;
         margin-bottom: .2em;
     }
-
+    .dwnldBtn{
+        position: relative;
+        box-sizing: border-box;
+        margin-top: .5em;
+        padding: .6em .3em;
+        width: 6em;
+        height: 2.1em;
+        text-align: center;
+        background-color: #000;
+    }
+    .dwnldBtn p{
+        color: white;
+        position: absolute;
+        top: .7em;
+        left: .5em;
+    }
 #wordDay {
     padding-right: .312em;
     padding-left: .312em;
@@ -361,97 +313,73 @@ a {
     .wordDef {
         
     }
-
 .blog-feed {
     padding-bottom: .812em;
 }
-
     .feed-article {
         padding-top: 1em;
     }
-
     .feedImg {
         height:150px;
         width: 100%;
         overflow: hidden;
     }
-
     .feedImg img {
         width: 100%;
     }
-
     .artcImg {
         width: 100%;
         overflow: hidden;
     }
-
-    .imgHover {
-        background-color: rgba: (255, 255, 255, .7);
-    }
-
     .feedCopy {
         width: 100%
-    }
-    
+    }   
     .feedCopy h4 {
         padding-top: .2em;
         font-size: 1.3em;
         font-weight: 100;
     }
-
     .feedCopy h3 {
         font-size: 1.6em;
         padding-top: .3em;
         padding-bottom: .2em;
         letter-spacing: .05em;
     }
-
     .feedCopy a:hover {
         border-bottom: 2px solid black;
     }
-
-
 <!------      WORK      ------>
-
     .work-items li {
         display: inline-block;
         width: 100%;
     }
-
     .work-items img {
         height: 150px;
         width: 100%;
         background-color: red;
     }
-
     .work-items h4 {
         font-size: 1.35em;
         padding-bottom: .2em;
     }
-
     .work-items p {
         font-size: .9em;
         padding-top: .3em;
         padding-bottom: .8em;
     }
-
     .work-items p a {
         color: #9e9e9e;
         padding-left: .6em;
-    }
-    
+    }  
 /* secondary styles
 -----------------------------------------------------*/
-
 .mobile-title {
     color: red;
     text-align: center;
     padding: 1em 0em;
 }
-
 /* footer
 -----------------------------------------------------*/
-
 #Foot {
     width: 100%;
     border-top: .3125em solid black;
@@ -459,12 +387,10 @@ a {
     float: left;
     margin-top: 1em;
 }
-
 .foot-page-links{
     font-size: 1.25em;
     padding-bottom: .625em;
 }
-
 .foot-top {
     width: 100%;
     padding-bottom: 1em;
@@ -472,56 +398,44 @@ a {
     box-sizing: border-box;
     display: inline-block;
 }
-
 .foot-top li {
     display: inline-block;
     padding-bottom: .3125em;
 }
-
 .foot-top a:hover {
     border-bottom: 2px solid black;
 }
-
 .foot-email {
     padding-bottom: .3125em;
     float: left;
 }
-
 .foot-bottom {
     width: 100%;
     padding-left: .8125em;
     box-sizing: border-box;
 }
-
 .foot-copyright {
     font-size: .875em;
 }
-
 .foot-social ul {
     padding-bottom: .85em;
+    line-height: 1.1875em;
 }
-
 .foot-social li {
     padding-bottom: .25em;
 }
-
 .foot-rights li {
     font-size: .75em;
     display: inline-block;
 }
-
-
 /* misc
 -----------------------------------------------------*/
-
 hr, .hide {
   display: none;
 }
-
 a img {
   border:none;
 }
-
 .show-menu {
     cursor: default;
 	text-decoration: none;
@@ -531,18 +445,14 @@ a img {
 	padding: .625em 0em;
 	display: block;
 }
-
 input[type=checkbox]{
     display: none;
     -webkit-appearance: none;
 }
-
 input[type=checkbox]:checked ~ #menu{
     display: block;
 }
-
 /* self-clear floats */
-
 .group:after {
   content:".";
   display: block;
@@ -550,7 +460,6 @@ input[type=checkbox]:checked ~ #menu{
   clear: both;
   visibility: hidden;
 }
-
 /* Responsive
 -----------------------------------------------------*/
 @media screen and (min-width : 24.1875em) {
@@ -563,10 +472,9 @@ input[type=checkbox]:checked ~ #menu{
         width: 21.25em;
     }
 }
-
 @media screen and (min-width : 38.25em) {
     #MC-item {
-        width 50%;
+        width: 50%;
         display: inline-block;
         padding-left: .812em;
     }
@@ -589,8 +497,8 @@ input[type=checkbox]:checked ~ #menu{
         display: block;    
     }
     .circle-2 {
-        height: 420px;
-        width: 420px;
+        height: 26.25em;
+        width: 26.25em;
     }
     .work-items li {
         width: 49%;
@@ -610,7 +518,6 @@ input[type=checkbox]:checked ~ #menu{
         margin-top: 6.8em;
     }
 }
-
 @media screen and (min-width : 40em) {
     .show-menu {
         display: none;
@@ -673,6 +580,7 @@ input[type=checkbox]:checked ~ #menu{
     }
     .shopFeedOdd{
         margin-top: 2.5em;
+        float: right;
     }
 }
 @media screen and (min-width : 51em) {
@@ -682,13 +590,12 @@ input[type=checkbox]:checked ~ #menu{
         margin-right: auto;
     }
     .circle-2 {
-        height: 500px;
-        width: 500px;
+        height: 31.25em;
+        width: 31.25em;
         float: right;
         margin: auto;
     }
 }
-
 @media screen and (min-width : 57.75em) {
     #contentWrapper{
         width: 80%;
@@ -725,7 +632,6 @@ input[type=checkbox]:checked ~ #menu{
         float: right;
     }   
 }
-
 @media screen and (min-width : 63.75em) {
     #indexWrapper{
         width: 65%;

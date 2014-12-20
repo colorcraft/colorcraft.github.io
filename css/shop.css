@@ -1,15 +1,6 @@
 /*
 ------   Shop Item Images   -----
 */
-
-
-/*#choco-chip {
-    height: 130px;
-    width: 130px;
-    background: url("../img/ice-cream-1.png") no-repeat;
-}*/
-
-
 .shop-circle {
     height: 310px;
     width: 310px;
@@ -34,10 +25,7 @@
     height: 20em;
 }
 }
-
 /*-------- Images --------*/
-
-
 .choc-chip-2 {
     background: url("../img/ice-cream-2.png") no-repeat center center / cover !important;
     position: relative;
@@ -45,6 +33,30 @@
 }
 .choc-chip{
     background: url("../img/ice-cream-1.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 10;
+}
+.choc-chip-lrg{
+    background: url("../img/chip-cone-lrg.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 10;
+}
+.cream-cicle{
+    background: url("../img/cream-cicle.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 10;
+}
+.cream-cicle-lrg{
+    background: url("../img/cream-cicle-lrg.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 10;
+}
+.diane{
+    background: url("../img/diane-print.png") no-repeat;
     background-size: cover;
     background-position: center center;
     z-index: 10;
