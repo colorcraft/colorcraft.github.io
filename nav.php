@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-    
     <body>
 
     <!-- Nav -->
     <div id="Nav">
       <div class="nav-hed group">
         <ul>
-          <li><h1><a href="index.php">Black Moods</a></h1></li>
+          <li>
+              <a href="index.php"><h1>Black Mo&ouml;ds</h1></a>
+          </li>
           <!--li><h3>черный <br>лад</h3></li>-->
         </ul>
       </div>

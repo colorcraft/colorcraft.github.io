@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<body>
-    
-    <?php include 'header.php';?>
-    <?php include 'nav.php'?>
+<?php include 'header.php';?>
+<?php include 'nav.php'?>
     
     <!-- Hed -->
     <div class="Hed group">
@@ -20,7 +17,7 @@
               </div>
               <div class="MC-item-post group">
                 <h4>Singing Out-Loud</h4>
-                <h3><a href="fromblack.html">From The Blackness</a></h3>
+                <h3><a href="fromblack.php">From The Blackness</a></h3>
                 <p>Black Moods was coined from a period in my life.  Its is named for much the same a Black Hole is and in fact was meant to explain a very similar phenomenon</p>
               </div>
             </div>
@@ -30,7 +27,7 @@
                 </div>
                 <div class="MC-item-post group">
                     <h4>Free Love</h4>
-                    <h3><a href="shop-item-chocochip.html">Choc Chip Cone</a></h3>
+                    <h3><a href="shop-item-chocochip.php">Choc Chip Cone</a></h3>
                     <p>This is part of an illustration series that is remembering the warmer days past, and wishing for more to come in the future. There are downloads for any device you use. Enjoy</p>
                 </div>
             </div>

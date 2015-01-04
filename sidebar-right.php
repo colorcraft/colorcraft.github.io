@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <!-- SideBar-Right -->
     <div id="SideBar-Right">
       <div class="time-date group">

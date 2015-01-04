@@ -1,6 +1,4 @@
-<DOCTYPE html>
-
-    <!-- Sub-Nav -->
+<!-- Sub-Nav -->
     <div id="Sub-Nav">
       <div id="subNavMenu" class="sub-nav group">
           <ul>

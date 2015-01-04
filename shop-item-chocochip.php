@@ -7,7 +7,7 @@
             <div class="Shop-Item">
                 <div class="shop-Item-inner">
                     <div class="back-btn">
-                        <a href="shop.html">&lt;</a>
+                        <a href="shop.php">&lt;</a>
                     </div>
                     <img class="circle-2" src="img/chip-cone-lrg.png">
                     <div class="item-specs">

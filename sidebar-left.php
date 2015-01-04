@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-
-    <!-- SideBar-Left -->
+<!-- SideBar-Left -->
     <div id="SideBar">
       <div class="MoodsBar">                            <p>blackmoodsyellowmoodscyanmoodsmagentamoodsblackmoodsyellowmoodscyanmoodsmagentamoodsblackmoodsyellowmoodscyanmoodsmagentamoodsblackmoodsyellowmoodscyanmoodsmagentamoodsblackmoodsyellowmoodscyanmoodsmagentamoodsblackmoodsyellowmoodscyanmoodsmagentamoodsblackmoodsyellowmoodscyanmoodsmagentamoods</p>
       </div>
@@ -10,4 +8,5 @@
           <li><a href="">Link Item</a></li>
         </ul>
       </div>
+      <?php include'insta-side.php';?>
     </div>

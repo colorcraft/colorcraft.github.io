@@ -1,11 +1,9 @@
-<!DOCTYPE html>
+<?php include'header.php'?>
+<?php include'nav.php'?>
+<?php include'sidebar-left.php'?>
+<?php include"subnav-work.php"?>
 
-    <?php include'header.php'?>
-    <?php include'nav.php'?>
-    <?php include'sidebar-left.php'?>
-    <?php include"subnav-work.php"?>
-
-     <!-- Main Content -->
+    <!-- Main Content -->
     <div id="contentWrapper">
         <div id="contentInner" class="work-items">
             <ul>
@@ -27,4 +25,4 @@
         </div>
     </div>
 
-    <?php include'footer.php'?>
+<?php include'footer.php'?>

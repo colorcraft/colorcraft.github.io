@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-
-    <!-- Sub-Nav -->
+<!-- Sub-Nav -->
     <div id="Sub-Nav">
       <div id="wordDay">
         <h2 class="word">Dictionary<span id="pron-pos"> | dikSHe,nere | n:</span></h2>

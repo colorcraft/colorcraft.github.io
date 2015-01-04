@@ -1,14 +1,13 @@
-<!DOCTYPE html>
     <!-- Footer -->
     <div id="Foot" class="group">
       <div class="foot-top">
         <div class="foot-page-links">
           <ul>
-            <li><a href="index.html">Home</a></li>  
-            <li><a href="work.html">Work</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="info.html">Info</a></li>
+            <li><a href="index.php">Home</a></li>  
+            <li><a href="work.php">Work</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="shop.php">Shop</a></li>
+            <li><a href="info.php">Info</a></li>
           </ul>
         </div>
         <div class="foot-email">
@@ -30,8 +29,8 @@
         <div class="foot-rights">
           <h4 class="foot-copyright">C. 2014 Black-Moods.com</h4>
           <ul>
-            <li><a href="">Privacy</a></li>
-            <li><a href="">Terms &amp; Conditions</a></li>
+            <li><a href="privacy.php">Privacy</a></li>
+            <li><a href="privacy.php">Terms &amp; Conditions</a></li>
             <li><a href="">Wholesale</a></li>
           </ul>
         </div>

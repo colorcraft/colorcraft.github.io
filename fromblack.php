@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-
-    <?php include'header.php';?>
-    <?php include'nav.php'?>
-    <?php include'sidebar-left.php'?>
-    
+<?php include'header.php';?>
+<?php include'nav.php'?>
+<?php include'sidebar-left.php'?>
      <!-- Main Content -->    
     <div id="contentWrapper">
         <div id="contentInner" class="blog-feed">
@@ -18,10 +15,9 @@
     <br><br>
     The true meaning of why I came to exist in this blackness is so far gone that undoubtedly it has also become lost in its own depth. A depth that is still a part of who I am and will always be. The creation of this, however, is in celebration of what has now become and is due to the incubation within this blackness. Here now is a celebratory Black Mood. A Yellow Mood. A Cyan Mood. A Rainbow Mood.
     <br><br>
-    My intention here is to voice all that was left in the dark, to blossom and express the fluid nature of mood. Black Moods will be a collection of love, loss, the found places and ideas that inspire and incubate for the future.</p>
+   My intention here is to voice all that was left in the dark, to blossom and express the fluid nature of mood. Black Moods will be a collection of love, loss, the found places and ideas that inspire and incubate for the future.</p>
             </div>
           </div>
         </div>
-    </div>
-    
-    <?php include'footer'?>
+    </div>   
+<?php include'footer.php'?>

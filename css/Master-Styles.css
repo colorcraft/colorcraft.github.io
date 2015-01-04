@@ -1,5 +1,6 @@
 /*
 Master Styles for Screen Media
+Coded With Love By: Joseph Taylor
 */
 body {
   font-family: "Courier Prime", Courier, Courier New, Serif;
@@ -14,44 +15,28 @@ a {
   text-decoration: none;
   color: black;
 }
-/* page structure ---------------------*/
-#contentWrapper {
-    width: 100%;
-}
-#contentInner {
-    width: 95%;
-    margin: auto auto;
-}
-#indexWrapper{
-    width: 100%;
-    float: left;
-}
-#secondary {}
-#footer {}
-/* header
-----------------------------------------*/
+/*---------------- Page Structure ---------------------*/
+#contentWrapper {width: 100%;}
+#contentInner {width: 95%;margin: auto auto;}
+#indexWrapper{width: 100%;float: left;}
 /*---------- Nav -----------*/
 #Nav {
   width: 100%;
   padding-bottom: .98em;
-}
-#Nav {
   display: inline-block;
 }
-.nav-hed {}
-.nav-hed h1 {
-  font-size: 4.05em;
-  font-weight: 500;
-  padding-top: .2875em;
-  line-height: .7;
-  text-align: center;
-  letter-spacing: .403em;
-  padding-left: .17em;
-  padding-bottom: .3em;
-}
-.nav-hed h3 {
-    display: none;
-}
+    .nav-hed {width:90%;margin:auto;}
+    .nav-hed h1 {
+      font-size: 3.95em;
+      font-weight: 500;
+      line-height: .9;
+      text-align: center;
+      letter-spacing: .403em;
+      padding: .5875em 0em .4em;
+    }
+    .nav-hed h3 {
+        display: none;
+    }
 #NavMenu {
     border-top: .3125em solid black;
     border-bottom: .3125em solid black;
@@ -86,7 +71,6 @@ a {
     }
     .nav-links li a {
         display:block;
-        min-width: 8.75em;
         height: 3.125em;
         text-align: center;
         line-height: 3.125em;
@@ -97,7 +81,7 @@ a {
         color: white;
         background: black;
     }
-    .active {
+    .nav-links li:active a{
         color: white !important;
         background: black !important;
     }
@@ -195,6 +179,12 @@ a {
         padding-top: 1.8em;
         float: left;
     }
+.instaFeed{
+    clear: both;
+    box-sizing: border-box;
+    padding: 2.25em .3em 0em 0em;
+    display: none;
+}
 #MC-item {
     width: 100%;
 }
@@ -203,6 +193,9 @@ a {
         padding-bottom: 1.5555em;
         padding-left: .312em;
         box-sizing: border-box;
+    }
+    .MC-item-post a:hover{
+        border-bottom: 2px solid black;
     }
     .MC-item-post h4{
         font-size: 1.2222em;
@@ -227,8 +220,6 @@ a {
     width: 95%;
     margin: auto;
 }
-    .shopFeed ul{
-    }
     .shopFeed li{
         padding-bottom: 2.3em;
     }
@@ -237,7 +228,7 @@ a {
         position: absolute;
         top: 101%;
     }
-    .circle {
+    .circle{
         height: 310px;
         width: 310px;
         border-radius: 100%;
@@ -245,38 +236,37 @@ a {
         margin-left: .38em;
         overflow: hidden;
     }
-    .circle-2 {
+    .circle-2{
         width: 310px;
         overflow: hidden;
         padding-bottom: 1em;
         float: right;
     }
-.Shop-Item {
-    width: 100%;
+.Shop-Item{
+    width: 90%;
+    margin: auto;
     overflow: hidden;
 }
-    .item-specs {
+    .item-specs{
         padding-bottom: 2em;
         margin-top: 20em
     }
-    .item-specs h2 {
+    .item-specs h2{
         font-size: 1.325em;
         line-height: .957em;
         padding-bottom: .5em;
     }
-    .item-specs h2 span {
+    .item-specs h2 span{
         font-weight: 100;
     }
-    .item-specs p {
+    .item-specs p{
         line-height: .955em;
     }
-    .item-specs p span {
+    .item-specs p span{
         font-size: .8em;
         line-height: 2.5em;
     }
-    .item-price {
-    }
-    .back-btn {
+    .back-btn{
         font-size: 3em;
         margin-bottom: .2em;
     }
@@ -296,27 +286,28 @@ a {
         top: .7em;
         left: .5em;
     }
-#wordDay {
+#dwnldContainer{}
+    .dwnldList li{padding-bottom: 1em;}
+    .dwnldList p{font-size: 1.5em;padding-bottom: .5em;}
+    .dwnldList ol{padding-left: 1em;}
+#wordDay{
     padding-right: .312em;
     padding-left: .312em;
     padding-bottom: 1.312em;
-    width: 90%;
+    width: 85%;
     margin-left: 11%;
 }
-    .word {
+    .word{
         font-size: 1.3em;
     }
-    .word span {
+    .word span{
         font-size: .8em;
         font-weight: 400;
     }
-    .wordDef {
-        
-    }
-.blog-feed {
+.blog-feed{
     padding-bottom: .812em;
 }
-    .feed-article {
+    .feed-article{
         padding-top: 1em;
     }
     .feedImg {
@@ -324,63 +315,63 @@ a {
         width: 100%;
         overflow: hidden;
     }
-    .feedImg img {
+    .feedImg img{
         width: 100%;
     }
-    .artcImg {
+    .artcImg{
         width: 100%;
         overflow: hidden;
     }
-    .feedCopy {
+    .feedCopy{
         width: 100%
     }   
-    .feedCopy h4 {
+    .feedCopy h4{
         padding-top: .2em;
         font-size: 1.3em;
         font-weight: 100;
     }
-    .feedCopy h3 {
+    .feedCopy h3{
         font-size: 1.6em;
         padding-top: .3em;
         padding-bottom: .2em;
         letter-spacing: .05em;
     }
-    .feedCopy a:hover {
+    .feedCopy a:hover{
         border-bottom: 2px solid black;
     }
 <!------      WORK      ------>
-    .work-items li {
+    .work-items li{
         display: inline-block;
         width: 100%;
     }
-    .work-items img {
+    .work-items img{
         height: 150px;
         width: 100%;
         background-color: red;
     }
-    .work-items h4 {
+    .work-items h4{
         font-size: 1.35em;
         padding-bottom: .2em;
     }
-    .work-items p {
+    .work-items p{
         font-size: .9em;
         padding-top: .3em;
         padding-bottom: .8em;
     }
-    .work-items p a {
+    .work-items p a{
         color: #9e9e9e;
         padding-left: .6em;
     }  
 /* secondary styles
 -----------------------------------------------------*/
-.mobile-title {
+.mobile-title{
     color: red;
     text-align: center;
     padding: 1em 0em;
 }
 /* footer
 -----------------------------------------------------*/
-#Foot {
+#Foot{
     width: 100%;
     border-top: .3125em solid black;
     padding-top: .9375em;
@@ -391,52 +382,52 @@ a {
     font-size: 1.25em;
     padding-bottom: .625em;
 }
-.foot-top {
+.foot-top{
     width: 100%;
     padding-bottom: 1em;
     padding-left: .8125em;
     box-sizing: border-box;
     display: inline-block;
 }
-.foot-top li {
+.foot-top li{
     display: inline-block;
     padding-bottom: .3125em;
 }
-.foot-top a:hover {
+.foot-top a:hover{
     border-bottom: 2px solid black;
 }
-.foot-email {
+.foot-email{
     padding-bottom: .3125em;
     float: left;
 }
-.foot-bottom {
+.foot-bottom{
     width: 100%;
     padding-left: .8125em;
     box-sizing: border-box;
 }
-.foot-copyright {
+.foot-copyright{
     font-size: .875em;
 }
-.foot-social ul {
+.foot-social ul{
     padding-bottom: .85em;
     line-height: 1.1875em;
 }
-.foot-social li {
+.foot-social li{
     padding-bottom: .25em;
 }
-.foot-rights li {
+.foot-rights li{
     font-size: .75em;
     display: inline-block;
 }
 /* misc
 -----------------------------------------------------*/
-hr, .hide {
+hr, .hide{
   display: none;
 }
-a img {
+a img{
   border:none;
 }
-.show-menu {
+.show-menu{
     cursor: default;
 	text-decoration: none;
 	color: white;
@@ -452,28 +443,23 @@ input[type=checkbox]{
 input[type=checkbox]:checked ~ #menu{
     display: block;
 }
-/* self-clear floats */
-.group:after {
-  content:".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
 /* Responsive
 -----------------------------------------------------*/
 @media screen and (min-width : 24.1875em) {
-.circle {
-    width: 13.75em;
-    height: 13.75em;
+    .circle{
+        width: 13.75em;
+        height: 13.75em;
     }
-    .circle-2 {
+    .circle-2{
         height: 21.25em;
         width: 21.25em;
     }
 }
+@media screen and (min-width: 29.5em) {
+    .MC-item-img {width: 70%;}
+}
 @media screen and (min-width : 38.25em) {
-    #MC-item {
+    #MC-item{
         width: 50%;
         display: inline-block;
         padding-left: .812em;
@@ -481,26 +467,26 @@ input[type=checkbox]:checked ~ #menu{
     .MC-item-post{   
         width: 60%;
     }
-    .MC-item-img {
+    .MC-item-img{
         width: 35%;
         float: right;
         margin-right: 1em;
     }
-    .circle {
+    .circle{
         width: 16.25em;
         height: 16.25em;
     }
-    #Sub-Nav {
+    #Sub-Nav{
     display: block;
     }
-    .sub-nav-links ul {
+    .sub-nav-links ul{
         display: block;    
     }
-    .circle-2 {
+    .circle-2{
         height: 26.25em;
         width: 26.25em;
     }
-    .work-items li {
+    .work-items li{
         width: 49%;
         display: inline-block;
         box-sizing: border-box;
@@ -511,7 +497,7 @@ input[type=checkbox]:checked ~ #menu{
         width: 50%;
         margin-top: 0em;
     }
-    .shop-item-right {
+    .shop-item-right{
         overflow: hidden;
         float: right;
         width: 50%;
@@ -519,62 +505,48 @@ input[type=checkbox]:checked ~ #menu{
     }
 }
 @media screen and (min-width : 40em) {
-    .show-menu {
-        display: none;
-    }
-    .nav-links ul {
-        display: block;
-    }
-    .nav-links  li {
+    .nav-hed h1{font-size: 4.05em;}
+    .show-menu{display: none;}
+    .nav-links ul{display: block;}
+    .nav-links  li{
         display: inline-block;
         float: left;
         width: 25%
     }
-    .nav-links  li a{
-        display: block;
-        min-width: 8.75em;
-        height: 3.125em;
-        text-align: center;
-        line-height: 3.125em;
-    }
-    .nav-hed h3 {
+    .nav-hed h3{
         display: block;
         font-size: 2em;
         font-weight: 500;
         float: left;
     }
-    .foot-page-links {
+    .foot-page-links{
         width: 50%;
         float: left;
     }
-    .foot-email {
+    .foot-email{
         width: 50%;
         float: right;
     }
-    .foot-social {
+    .foot-social{
         float: right;
         width: 50%;
         padding-bottom: 0em;
     }
-    .foot-social li {
+    .foot-social li{
         padding-bottom: 0em;
     }
-    .foot-rights {
+    .foot-rights{
         padding-top: 1.3em;
     }
-    .shop-item-left {
+    .shop-item-left{
         float: left;
         width: 50%;
     }
-    .shop-item-right {
-        float: left;
-        width: 50%;
-    }
-    .feedImg {
+    .feedImg{
         width: 35%;
         float: left;
     }
-    .feedCopy {
+    .feedCopy{
         width: 62%;
         float: right;
     }
@@ -590,12 +562,12 @@ input[type=checkbox]:checked ~ #menu{
     }
 }
 @media screen and (min-width : 51em) {
-    #Sub-Nav ul {
+    #Sub-Nav ul{
         width: 75%;
         margin-left: auto;
         margin-right: auto;
     }
-    .circle-2 {
+    .circle-2{
         height: 31.25em;
         width: 31.25em;
         float: right;
@@ -610,28 +582,28 @@ input[type=checkbox]:checked ~ #menu{
     #indexWrapper{
         width: 80%;
     }
-    #SideBar {
+    #SideBar{
         display: block;
         float: left;
         width: 18%;
     }
-    #MC-item {
+    #MC-item{
         width: 80%;
         display: inline-block;
     }
-    .MC-item-img {
+    .MC-item-img{
         width: 35%;
         float: right;
     }
-    #shop {
+    #shop{
         float: right;
         width: 77%;
     }
-    .circle {
+    .circle{
         height: 308px;
         width: 308px;
     }
-    #Sub-Nav {
+    #Sub-Nav{
         padding-left: .812em;
         padding-right: 1em;
         width: 80%;
@@ -642,26 +614,35 @@ input[type=checkbox]:checked ~ #menu{
     #indexWrapper{
         width: 65%;
     }
-    .circle {
+    .circle{
         height: 330px;
         width: 330px;
     }
-    .MC-item-img {
+    .MC-item-img{
         width: 34%;
     }
-    #SideBar-Right {
+    #SideBar-Right{
     box-sizing: border-box;
     display: block;
     float: right;
     width: 13%;
     }
-    #shop {
+    #shop{
         width: 72%;
     }
-    .copyright {
+    .copyright{
         left: 0em;
         float: left;
     }
-    .foot-rights {   
-    }
+}
+@media screen and (min-width : 65em){
+    .instaFeed{display: block;}
+}
+/* self-clear floats */
+.group:after{
+  content:".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
