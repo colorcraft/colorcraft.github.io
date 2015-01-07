@@ -543,6 +543,7 @@ input[type=checkbox]:checked ~ #menu{
         width: 50%;
     }
     .feedImg{
+        height: 100%;
         width: 35%;
         float: left;
     }

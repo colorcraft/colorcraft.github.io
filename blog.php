@@ -19,6 +19,13 @@
                 <h3><a href="fromblack.php">From the Blackness</a></h3>
                 <p>Black Moods was coined from a period in my life.  Its is named for much the same a Black Hole is and in fact was meant to explain a very similar phenomenon</p>
             </div>
+          </div>
+          <div  id="Life" class="feed-article group">
+            <a class="imgHover" href="burninganswer.php">
+                <div class="feedImg">
+                    <img src="img/afterFire.jpg">
+                </div>
+            </a>
             <div class="feedCopy">
                 <h4>Sometime, Someplace</h4>
                 <h3><a href="burninganswer.php">Burning Answers</a></h3>
@@ -29,3 +36,18 @@
     </div>
     
     <?php include'footer.php'?>
+
+<!--
+<div  id="Life" class="feed-article group">
+    <a class="imgHover" href="">
+        <div class="feedImg">
+            <img src="img/">
+        </div>
+    </a>
+    <div class="feedCopy">
+        <h4></h4>
+        <h3><a href=""></a></h3>
+        <p></p>
+    </div>
+</div>
+-->

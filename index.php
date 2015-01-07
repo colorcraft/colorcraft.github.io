@@ -33,13 +33,13 @@
             </div>
             <div class="mc-item">
                 <div class="MC-item-img">
-                    <img src="">
+                    <img src="img/afterFire.jpg">
                 </div>
                 <div class="MC-item-post group">
+                    <h4>Sometime, Someplace</h4>
+                    <h3><a href="burninganswer.php">Burning Answers</a></h3>
+                    <p>There are most things in life we have (most of us) grown accustomed to and do not expect that at any point in the unimaginable infinity that is life would be snatched away.</p>
                 </div>
-                <h4>Sometime, Someplace</h4>
-                <h3><a href="burninganswer.php">Burning Answers</a></h3>
-                <p>There are most things in life we have (most of us) grown accustomed to and do not expect that at any point in the unimaginable infinity that is life would be snatched away.</p>
             </div>
 <!--            
             <div class="mc-item">
@@ -47,10 +47,10 @@
                     <img src="">
                 </div>
                 <div class="MC-item-post group">
+                    <h4></h4>
+                    <h3><a href=""></a></h3>
+                    <p></p>
                 </div>
-                <h4></h4>
-                <h3><a href=""></a></h3>
-                <p></p>
             </div>
 -->
         </div>

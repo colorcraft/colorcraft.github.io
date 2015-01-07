@@ -10,6 +10,13 @@
             <div class="shopFeed">
                 <ul>
                   <li class="shop-item-left group">
+                    <a href="shop-item-crime.php">
+                        <div class="shop-circle crime">
+                            <p>'Crime'</p>
+                        </div>
+                    </a>
+                  </li>
+                  <li class="shop-item-left group">
                     <a href="shop-item-chocochip.php">
                         <div class="shop-circle choc-chip">
                             <p>Chocolate Chip Cone</p>
@@ -23,7 +30,7 @@
                         </div>
                     </a>
                   </li>
-                    <li class="shop-item-left group">
+                  <li class="shop-item-left group">
                     <a href="shop-item-diane.php">
                         <div class="shop-circle diane">
                             <p>'Diane'</p>

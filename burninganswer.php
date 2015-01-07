@@ -6,7 +6,7 @@
         <div id="contentInner" class="blog-feed">
           <div class="feed-article">    
             <div class="feedImg">
-                <img src="img/">
+                <img src="img/afterFire.jpg">
             </div>
             <div id="Life" class="feedCopy">
                 <h4>Someplace, Sometime</h4>
@@ -18,7 +18,7 @@ I'd never conceived of how helpless a person can be, at how helpless I was. New 
 <br /><br />
 We had just said something about how you bring in the New Year is indication for how the year will go. Great. Smoke that comes from a structure fire represents an incredible mix of emotions, if, when closing your eyes and distancing the reality from the situation, you can be subtly reminded of campfires, while what is actually happening is fire-fighers are tearing your apartment to hell, dumping gallons upon gallons of water into the walls, through the ceilings onto all that you had so carefully arranged and placed in its destined place. Destined to be smashed.
 <br /><br />
-We stood even past they had all left, denying news-crews interviews, denying ourselves the acknowledgement of what we had just witnessed. We stood there in the freezing cold and waited to be ushered into the city-bus that came after all the emergency crews had left, they told us we couldn't live there anymore, and we knew this but somehow hearing that made it very real. The insurance forms and displaced housing search have reinforced this fact. The truth is, however, that the rent was just too good and would have kept me stationary. I've never wanted that for myself. We were kicked by this burning answer, this burning building forcing us to move one, to continue searching and find someplace that our roots can spread a little more. Plus I was really having difficulty choosing a color to paint my walls.
+We stood even past they had all left, denying news-crews interviews, denying ourselves the acknowledgement of what we had just witnessed. We stood there in the freezing cold and waited to be ushered into the city-bus that came after all the emergency crews had left, they told us we couldn't live there anymore, and we knew this but somehow hearing that made it very real. The insurance forms and displaced housing search have reinforced this fact. The truth is, however, that the rent was just too good and would have kept me stationary. I've never wanted that for myself. We were kicked by this burning answer, this burning building forcing us to move one, to continue searching and find someplace that our roots can spread a little more. Plus, I was really having difficulty choosing a color to paint my walls.
                 </p>
             </div>
           </div>
