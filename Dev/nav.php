@@ -1,6 +1,4 @@
-    <body>
-
-    <!-- Nav -->
+<!-- Nav -->
     <div id="Nav">
       <div class="nav-hed group">
         <ul>
