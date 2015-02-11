@@ -36,5 +36,31 @@
         </div>
       </div>
     </div>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+        var fActive = '';
+ 
+        function filterGroup(group){
+          if(fActive != group){
+            $('.feedFilter').filter('.'+group).slideDown();
+            $('.feedFilter').filter(':not(.'+group+')').slideUp();
+            fActive = group;
+          }
+        }
+
+        $('.f-group-1').click(function(){ 
+            filterGroup('group-1'); 
+        });
+        $('.f-group-2').click(function(){ 
+            filterGroup('group-2'); 
+        });
+        $('.f-group-3').click(function(){ 
+            filterGroup('group-3'); 
+        });
+        $('.all-Butn').click(function(){
+          $('.feedFilter').slideDown();
+          fActive = 'all';
+        });
+</script>
 </body>
 </html>

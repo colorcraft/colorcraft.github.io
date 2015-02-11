@@ -1,0 +1,47 @@
+/*
+------   Shop Item Images   -----
+*/
+.shop-circle {
+    height: 310px;
+    width: 310px;
+    margin: auto;
+    position: relative;
+}
+@media screen and (min-width : 38.25em) {
+.shop-circle{
+    height: 15em;
+    width: 15em;
+}
+}
+@media screen and (min-width : 47.1875em){
+.shop-circle{
+    height: 17em;
+    width: 17em;
+}
+}
+@media screen and (min-width : 51em) {
+.shop-circle{
+    width: 20em;
+    height: 20em;
+}
+}
+/*-------- Images --------*/
+.choc-chip{background: url("../img/ice-cream-1.png") no-repeat;}
+.choc-chip:hover{ background: url("../img/ice-cream-2.png") no-repeat;}
+.choc-chip-lrg{background: url("../img/chip-cone-lrg.png") no-repeat;}
+.cream-cicle{background: url("../img/cream-cicle.png") no-repeat;}
+.cream-cicle:hover{background: url(../img/cream-cicle.png) no-repeat;}
+.cream-cicle-lrg{background: url("../img/cream-cicle-lrg.png") no-repeat;}
+.diane{background: url("../img/diane-print.png") no-repeat;}
+.crime{background: url("../img/crimeTeeSM.png") no-repeat;}
+
+/*-- Background Image Position --*/
+.choc-chip, .choc-chip:hover, .choc-chip-lrg,
+.cream-cicle, .cream-cicle:hover, .cream-cicle-lrg,
+.diane, .diane:hover,
+.crime, .crime:hover
+{
+    background-size: cover;
+    background-position: center center;
+    z-index: 10;
+}

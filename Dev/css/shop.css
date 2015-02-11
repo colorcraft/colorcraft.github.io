@@ -26,17 +26,14 @@
 }
 }
 /*-------- Images --------*/
-.choc-chip-2 {
-    background: url("../img/ice-cream-2.png") no-repeat center center / cover !important;
-    position: relative;
-    z-index: 50;
-}
-.choc-chip{
-    background: url("../img/ice-cream-1.png") no-repeat;
+.choc-chip,
+.choc-chip a:hover {
     background-size: cover;
     background-position: center center;
     z-index: 10;
 }
+.choc-chip{background: url("../img/ice-cream-1.png") no-repeat;}
+.choc-chip a:hover{ background: url("../img/ice-cream-2.png") no-repeat;}
 .choc-chip-lrg{
     background: url("../img/chip-cone-lrg.png") no-repeat;
     background-size: cover;

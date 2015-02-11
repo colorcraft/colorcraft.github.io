@@ -1,0 +1,701 @@
+/*
+Master Styles for Screen Media
+Coded With Love By: Joseph Taylor
+*/
+body {
+  font-family: "Courier Prime", Courier, Courier New, Serif;
+  font-size: 1em;
+  color: black;
+  background: white;
+  width: 100%;
+  height: auto;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+/*---------------- Page Structure ---------------------*/
+#contentWrapper {width: 100%;}
+#contentInner {width: 95%;margin: auto auto;}
+#indexWrapper{width: 100%;float: left;}
+/*---------- Nav -----------*/
+#Nav {
+  width: 100%;
+  padding-bottom: .98em;
+  display: inline-block;
+}
+    .nav-hed {width:90%;margin:auto;}
+    .nav-hed h1 {
+      font-size: 3.95em;
+      font-weight: 500;
+      line-height: .9;
+      text-align: center;
+      letter-spacing: .403em;
+      padding: .5875em 0em .4em;
+    }
+    .nav-hed h3 {
+        display: none;
+    }
+#NavMenu {
+    border-top: .3125em solid black;
+    border-bottom: .3125em solid black;
+    height: auto;
+    width: 100%;
+    }
+    .NavMenu {
+        border-top: .3125em solid black;
+        border-bottom: .3125em solid black;
+        height: auto;
+        width: 100%;
+    }
+    .nav-links ul {
+        display: none;
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        font-size: 1.25em;
+        font-weight: 100;
+    }
+    .nav-links li ul {
+        display: none;
+    }
+    .nav-links li ul li {
+        display: block;
+        float: none;
+    }
+    .nav-links li ul li a {
+        width: auto;
+        min-width: 6.25em;
+        padding: 0em 1.25em;
+    }
+    .nav-links li a {
+        display:block;
+        height: 3.125em;
+        text-align: center;
+        line-height: 3.125em;
+        color: black;
+        text-decoration: none;
+    }
+    .nav-links li:hover a {
+        color: white;
+        background: black;
+    }
+    .nav-links li:active a{
+        color: white !important;
+        background: black !important;
+    }
+    .show-menu{
+        font-size: 1.25em;
+        font-weight: 100;
+    }
+#Sub-Nav {
+    display: none;
+    padding-left: .312em;
+    padding-right: .312em;
+    padding-bottom: .612em;
+    box-sizing: border-box;
+    }
+    #subNavMenu{
+        border-top: .225em solid black;
+        border-bottom:  .225em solid black;
+        height: auto;
+        width: 100%;
+    }
+    .sub-nav ul {
+        font-size: .95em;
+        list-style-type:none;
+	    margin:0;
+	    padding:0;
+        font-weight: 100;
+    }
+    .sub-nav li {
+        width: 33.33%;
+        display: inline-block;
+        float: left;
+    }
+    .sub-nav li ul li a {
+        width: auto;
+        min-width: 6.25em;
+        padding: 0em 1.25em;
+    }
+    .sub-nav li a {
+        display:block;
+        min-width: 8.75em;
+        height: 3.125em;
+        text-align: center;
+        line-height: 3.125em;
+        color: black;
+        text-decoration: none;
+    }
+    .sub-nav li:hover a {
+        color: white;
+        background: black;
+    }
+/* main styles
+----------------------------------------------------*/
+/*--------Headers----------*/
+.Hed{
+      background-size: 100%;
+      height: 20.4375em;
+      width: 100%;
+      padding-bottom: 2.5em;
+      border-bottom: .3125em solid black;
+      box-sizing: border-box;
+      margin-bottom: 1em;
+    }
+#Hed-img{
+    background-image: url('../img/snow_dog.jpg');
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+    .imgBox {
+        position: absolute;
+        float: left;
+        background-position: center center;
+        height: 18em;
+        width: 100%;
+    }
+.all-Butn{
+    float: right;
+    cursor: pointer;
+}
+.all-Butn span{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+}
+/*-------Sidebar--------*/
+#SideBar {
+    display: none;
+    margin-left: 1em;
+    }
+    .MoodsBar {
+        width: 100%;
+        float: left;
+        font-size: 1em;
+        line-height: 1.2em;
+        box-sizing: border-box;
+        word-wrap: break-word;
+    }
+    .Blog-links {
+        box-sizing: border-box;
+        padding-top: 1.8em;
+        float: left;
+    }
+    .Web-links li,
+    .Blog-links li {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .Web-links a:hover,
+    .Blog-links a:hover{
+        border-bottom: 2px solid black;
+    }
+    .instaFeed{
+        clear: both;
+        box-sizing: border-box;
+        padding: 2.25em .3em 0em 0em;
+        display: none;
+    }
+#SideBar-Right {
+    box-sizing: border-box;
+    display: none;
+    margin-right: 1em;
+}
+    .Web-links{
+        padding-top: 10px;
+    }
+#MC-item {
+    width: 100%;
+}
+    .MC-item-post{   
+        width: 100%;
+        padding-bottom: 1.5555em;
+        padding-left: .312em;
+        box-sizing: border-box;
+    }
+    .MC-item-post a:hover{
+        border-bottom: 2px solid black;
+    }
+    .MC-item-post h4{
+        font-size: 1.2222em;
+        font-weight: 100;
+        padding-bottom: .5555em;
+    }
+    .MC-item-post h3{
+        font-size: 1.4444em;
+        padding-bottom: .5555em;
+    }
+    .MC-item-img {
+        width: 100%;
+        height: 11.8125em;
+        margin-bottom: .5em;
+        overflow: hidden;
+    }
+    .MC-item-img img {
+        width: 100%;
+    }
+/*-----------  Shop Items ------------*/
+.shopFeed{
+    width: 95%;
+    margin: auto;
+}
+    .shopFeed li{
+        padding-bottom: 2.3em;
+    }
+    .shopFeed p{
+        padding-bottom: 1.5em;
+        position: absolute;
+        top: 101%;
+    }
+    .circle{
+        height: 310px;
+        width: 310px;
+        border-radius: 100%;
+        background-color: black;
+        margin-left: .38em;
+        overflow: hidden;
+    }
+    .circle-2{
+        width: 310px;
+        overflow: hidden;
+        padding-bottom: 1em;
+        float: right;
+    }
+.Shop-Item{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+    .item-specs{
+        padding-bottom: 2em;
+        margin-top: 20em
+    }
+    .item-specs h2{
+        font-size: 1.325em;
+        line-height: .957em;
+        padding-bottom: .5em;
+    }
+    .item-specs h2 span{
+        font-weight: 100;
+    }
+    .item-specs p{
+        line-height: .955em;
+    }
+    .item-specs p span{
+        font-size: .8em;
+        line-height: 2.5em;
+    }
+    .back-btn{
+        font-size: 3em;
+        margin-bottom: .2em;
+    }
+    .dwnldBtn{
+        position: relative;
+        box-sizing: border-box;
+        margin-top: .5em;
+        padding: .6em .3em;
+        width: 6em;
+        height: 2.1em;
+        text-align: center;
+        background-color: #000;
+    }
+    .dwnldBtn p{
+        color: white;
+        position: absolute;
+        top: .7em;
+        left: .5em;
+    }
+#dwnldContainer{}
+    .dwnldList li{padding-bottom: 1em;}
+    .dwnldList p{font-size: 1.5em;padding-bottom: .5em;}
+    .dwnldList ol{padding-left: 1em;}
+#wordDay{
+    padding-right: .312em;
+    padding-left: .312em;
+    padding-bottom: 1.312em;
+    width: 85%;
+    margin-left: 11%;
+}
+    .word{
+        font-size: 1.3em;
+    }
+    .word span{
+        font-size: .8em;
+        font-weight: 400;
+        font-style: italic;
+    }
+.blog-feed{
+    padding-bottom: .812em;
+}
+    .feed-article{
+        padding-top: 1em;
+    }
+    .feedImg {
+        height:150px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .feedImg img{
+        width: 100%;
+    }
+    .artcImg{
+        width: 100%;
+        overflow: hidden;
+    }
+    .feedCopy{
+        width: 100%
+    }   
+    .feedCopy h4{
+        padding-top: .2em;
+        font-size: 1.3em;
+        font-weight: 100;
+    }
+    .feedCopy h3{
+        font-size: 1.6em;
+        padding-top: .3em;
+        padding-bottom: .2em;
+        letter-spacing: .05em;
+    }
+    .feedCopy a:hover{
+        border-bottom: 2px solid black;
+    }
+<!------      WORK      ------>
+    .work-items li{
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+    }
+    .work-items img{
+        height: 150px;
+        width: 100%;
+        background-color: red;
+    }
+    .work-items h4{
+        font-size: 1.35em;
+        padding-bottom: .2em;
+    }
+    .work-items p{
+        font-size: .9em;
+        padding-top: .3em;
+        padding-bottom: .8em;
+    }
+    .work-items p a{
+        color: #9e9e9e;
+        padding-left: .6em;
+    }
+    .workIMG img{
+        width: 100%;
+    }
+    .workDetails{
+        width: 80%;
+        margin: auto;
+        padding-bottom: 1.125rem;
+    }
+    .workDetails h4{
+        font-size: 1.375em;
+        padding-bottom: .625em;
+    }
+    .workDetails p{
+        font-size: .9375em;
+        line-height: 1.125rem;
+        margin-bottom: 1rem;
+    }
+    .workLink{
+        color: white;
+        background: none repeat scroll 0% 0% black;
+        padding: 0.4375rem 0.625rem;
+    }
+/* secondary styles
+-----------------------------------------------------*/
+.mobile-title{
+    color: red;
+    text-align: center;
+    padding: 1em 0em;
+}
+/* footer
+-----------------------------------------------------*/
+#Foot{
+    width: 100%;
+    border-top: .3125em solid black;
+    padding-top: .9375em;
+    float: left;
+    margin-top: 1em;
+}
+.foot-page-links{
+    font-size: 1.25em;
+    padding-bottom: .625em;
+}
+.foot-top{
+    width: 100%;
+    padding-bottom: 1em;
+    padding-left: .8125em;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.foot-top li{
+    display: inline-block;
+    padding-bottom: .3125em;
+}
+.foot-top a:hover{
+    border-bottom: 2px solid black;
+}
+.foot-email{
+    padding-bottom: .3125em;
+    float: left;
+    display: none;
+}
+.foot-bottom{
+    width: 100%;
+    padding-left: .8125em;
+    box-sizing: border-box;
+}
+.foot-copyright{
+    font-size: .875em;
+}
+.foot-social ul{
+    padding-bottom: .85em;
+    line-height: 1.1875em;
+}
+.foot-social li{
+    padding-bottom: .25em;
+}
+.foot-rights li{
+    font-size: .75em;
+    display: inline-block;
+}
+/* misc
+-----------------------------------------------------*/
+hr, .hide{
+  display: none;
+}
+a img{
+  border:none;
+}
+.show-menu{
+    cursor: default;
+	text-decoration: none;
+	color: white;
+    background-color: black;
+	text-align: center;
+	padding: .625em 0em;
+	display: block;
+}
+input[type=checkbox]{
+    display: none;
+    -webkit-appearance: none;
+}
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+/* Responsive
+-----------------------------------------------------*/
+@media screen and (min-width : 24.1875em) {
+    .circle{
+        width: 13.75em;
+        height: 13.75em;
+    }
+    .circle-2{
+        height: 21.25em;
+        width: 21.25em;
+    }
+}
+@media screen and (min-width: 29.5em) {
+    .MC-item-img {width: 70%;}
+}
+@media screen and (min-width : 38.25em) {
+    #MC-item{
+        width: 50%;
+        display: inline-block;
+        padding-left: .812em;
+    }
+    .MC-item-post{   
+        width: 60%;
+    }
+    .MC-item-img{
+        width: 35%;
+        float: right;
+        margin-right: 1em;
+    }
+    .circle{
+        width: 16.25em;
+        height: 16.25em;
+    }
+    #Sub-Nav{
+    display: block;
+    }
+    .sub-nav-links ul{
+        display: block;    
+    }
+    .sub-nav a{
+        cursor: pointer;
+    }
+    .circle-2{
+        height: 26.25em;
+        width: 26.25em;
+    }
+    .work-items li{
+        width: 49%;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 0em .2em;
+        vertical-align: top;
+    }
+    .shop-item-left{
+        float: left;
+        width: 50%;
+        margin-top: 0em;
+    }
+    .shop-item-right{
+        overflow: hidden;
+        float: right;
+        width: 50%;
+        margin-top: 6.8em;
+    }
+}
+@media screen and (min-width : 40em) {
+    .nav-hed h1{font-size: 4.05em;}
+    .show-menu{display: none;}
+    .nav-links ul{display: block;}
+    .nav-links  li{
+        display: inline-block;
+        float: left;
+        width: 25%
+    }
+    .nav-hed h3{
+        display: block;
+        font-size: 2em;
+        font-weight: 500;
+        float: left;
+    }
+    .foot-page-links{
+        width: 50%;
+        float: left;
+    }
+    .foot-email{
+        width: 50%;
+        float: right;
+    }
+    .foot-social{
+        float: right;
+        width: 50%;
+        padding-bottom: 0em;
+    }
+    .foot-social li{
+        padding-bottom: 0em;
+    }
+    .foot-rights{
+        padding-top: 1.3em;
+    }
+    .shop-item-left{
+        float: left;
+        width: 50%;
+    }
+    .feedImg{
+        height: 100%;
+        width: 35%;
+        float: left;
+    }
+    .feedCopy{
+        width: 62%;
+        float: right;
+    }
+    .shopFeed li:nth-child(even){
+        margin-top: 6.5em;
+        float: right;
+    }
+    .shopFeed li:nth-child(3n){
+        margin: -6em 0em 0em 3em;
+    }
+    .shopFeed li:nth-child(4n){
+        margin-top: -7em;
+    }
+}
+@media screen and (min-width : 51em) {
+    #Sub-Nav ul{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .circle-2{
+        height: 31.25em;
+        width: 31.25em;
+        float: right;
+        margin: auto;
+    }
+}
+@media screen and (min-width : 57.75em) {
+    #contentWrapper{
+        width: 80%;
+        float: right;
+    }
+    #indexWrapper{
+        width: 80%;
+    }
+    #SideBar{
+        display: block;
+        float: left;
+        width: 18%;
+    }
+    #MC-item{
+        width: 80%;
+        display: inline-block;
+    }
+    .MC-item-img{
+        width: 35%;
+        float: right;
+    }
+    #shop{
+        float: right;
+        width: 77%;
+    }
+    .circle{
+        height: 308px;
+        width: 308px;
+    }
+    #Sub-Nav{
+        padding-left: .812em;
+        padding-right: 1em;
+        width: 80%;
+        float: right;
+    }   
+}
+@media screen and (min-width : 63.75em) {
+    #indexWrapper{
+        width: 65%;
+    }
+    .circle{
+        height: 330px;
+        width: 330px;
+    }
+    .MC-item-img{
+        width: 34%;
+    }
+    #SideBar-Right{
+    box-sizing: border-box;
+    display: block;
+    float: right;
+    width: 13%;
+    }
+    #shop{
+        width: 72%;
+    }
+    .copyright{
+        left: 0em;
+        float: left;
+    }
+}
+@media screen and (min-width : 65em){
+    .instaFeed{display: block;}
+}
+/* self-clear floats */
+.group:after{
+  content:".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}

@@ -24,13 +24,12 @@
 
         <!-- JS -->
 
-        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-
         <!-- Fonts -->
         <script>try{Typekit.load();}catch(e){}</script>
         <script src="//use.typekit.net/dyy1prm.js"></script>
 
         <!-- Scripts -->
+        
         
     </head>
     <body>

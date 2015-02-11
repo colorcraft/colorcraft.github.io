@@ -8,7 +8,7 @@
     <!-- Main Content -->
     <div id="contentWrapper">
         <div id="contentInner" class="blog-feed">
-          <div  id="Life" class="feed-article group">
+          <div class="feed-article group group-1 feedFilter">
             <a class="imgHover" href="fromblack.php">
                 <div class="feedImg">
                     <img src="img/nightlight.jpg">
@@ -20,7 +20,7 @@
                 <p>Black Moods was coined from a period in my life.  Its is named for much the same a Black Hole is and in fact was meant to explain a very similar phenomenon</p>
             </div>
           </div>
-          <div  id="Life" class="feed-article group">
+          <div class="feed-article group group-3 feedFilter">
             <a class="imgHover" href="burninganswer.php">
                 <div class="feedImg">
                     <img src="img/afterFire.jpg">
@@ -32,22 +32,10 @@
                 <p>There are most things in life we have (most of us) grown accustomed to and do not expect that at any point in the unimaginable infinity that is life would be snatched away.</p>
             </div>
           </div>
+          <div class="all-Butn">
+              <span>View All</span>
+          </div>
         </div>
     </div>
     
     <?php include'footer.php'?>
-
-<!--
-<div  id="Life" class="feed-article group">
-    <a class="imgHover" href="">
-        <div class="feedImg">
-            <img src="img/">
-        </div>
-    </a>
-    <div class="feedCopy">
-        <h4></h4>
-        <h3><a href=""></a></h3>
-        <p></p>
-    </div>
-</div>
--->

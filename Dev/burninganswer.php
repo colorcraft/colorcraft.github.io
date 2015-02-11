@@ -8,7 +8,7 @@
             <div class="feedImg">
                 <img src="img/afterFire.jpg">
             </div>
-            <div id="Life" class="feedCopy">
+            <div class="feedCopy">
                 <h4>Someplace, Sometime</h4>
                 <h3>Burning Answers</h3>
                 <p>
