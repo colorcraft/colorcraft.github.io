@@ -23,12 +23,12 @@
             </div>
             <div class="mc-item">
                 <div class="MC-item-img">
-                    <img src="img/testframe.png">
+                    <img src="img/randoms.jpg">
                 </div>
                 <div class="MC-item-post group">
-                    <h4>Free Love</h4>
-                    <h3><a href="shop-item-chocochip.php">Choc Chip Cone</a></h3>
-                    <p>This is part of an illustration series that is remembering the warmer days past, and wishing for more to come in the future. There are downloads for any device you use. Enjoy</p>
+                    <h4>Scratching an Itch</h4>
+                    <h3><a href="randoms.php">Finding a place in empty space</a></h3>
+                    <p>Collecting</p>
                 </div>
             </div>
             <div class="mc-item">

@@ -9,13 +9,13 @@
                     <div class="back-btn">
                         <a href="shop.php">&lt;</a>
                     </div>
-                    <img class="circle-2 choc-chip-lrg">
+                    <img class="circle-2 fishfish-lrg">
                     <div class="item-specs">
-                        <h2><em>Mint Choc Chip<br><span>Screen Wallpaper</span></em></h2>
-                        <p><br>Find your fit<br><span>For Screens &amp; Size</span></p>
-                        <p class="item-price">$free.99</p>
+                        <h2><em>"Fish"<br><span>Digital Print</span></em></h2>
+                        <p><br>Edititon Size - 50<br>20"x24"<br><span>Matte Paper</span></p>
+                        <p class="item-price">$105.00</p>
                         <div class="dwnldBtn">
-                            <a href="downloads.php"><p>download</p></a>
+                            
                         </div>
                     </div>
                 </div>

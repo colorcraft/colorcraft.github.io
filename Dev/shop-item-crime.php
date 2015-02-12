@@ -9,7 +9,7 @@
                     <div class="back-btn">
                         <a href="shop.php">&lt;</a>
                     </div>
-                    <img class="circle-2" src="img/crimeTee.png">
+                    <img class="circle-2 crime-lrg">
                     <div class="item-specs">
                         <h2><em>Crime<br><span>Tee Shirt</span></em></h2>
                         <p><br>Edititon Size - 50<br>S - L<br><span>Cotton</span></p>

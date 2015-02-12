@@ -37,6 +37,20 @@
                         </div>
                     </a>
                   </li>
+                  <li class="shop-item-left group">
+                    <a href="shop-item-fish.php">
+                        <div class="shop-circle fishfish">
+                            <p>'Fish'</p>
+                        </div>
+                    </a>
+                  </li>
+                  <li class="shop-item-left group">
+                    <a href="shop-item-seafoam.php">
+                        <div class="shop-circle seafoam">
+                            <p>'Seafoam'</p>
+                        </div>
+                    </a>
+                  </li>    
                 </ul>
             </div>
         </div>

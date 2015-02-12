@@ -14,18 +14,18 @@
                     <p>// Platinum ABQ //<br />A website for Alburqurque's newest and hottest rentals in the Nob Hill district.<a href="platinum.php">See More</a></p>
                 </div>
               </li>
-              <li class="feedFilter group-1">
+              <li class="feedFilter group-1 group-2">
                   <div class="work-items">
                     <a href="anchorage.php"><h4>Anchorage</h4></a>
                     <a href="anchorage.php"><img src="./img/anchorage-Feed.jpg"></a>
-                    <p>// Anchorage 1770 //<br />Building a modern branding element for a Boutique Inn as that's older than the Declaration of Idependance.<a href="">See More</a></p>
+                    <p>// Anchorage 1770 //<br />Building a modern branding element for a Boutique Inn as that's older than the Declaration of Idependance.<a href="anchorage.php">See More</a></p>
                   </div>
               </li>
-              <li class="feedFilter group-3">
+              <li class="feedFilter group-1 group-3">
                   <div class="work-items">
-                    <h4>Item</h4>
-                    <a href=""><img src=""></a>
-                    <p>Item 3. Short description and other info that might be useful or not... Its up to you to get what you need.<a href="">See More</a></p>
+                    <a href="mainestring.php"><h4>The Maine String</h4></a>
+                    <a href="mainestring.php"><img src="./img/tms-Feed.jpg"></a>
+                    <p>// The Maine String //<br />Branding for a handmade knitted goods company in Maine<a href="mainestring.php">See More</a></p>
                   </div>
               </li>
             </ul>
@@ -34,5 +34,4 @@
             </div>
         </div>
     </div>
-
 <?php include'footer.php'?>

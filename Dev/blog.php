@@ -8,7 +8,7 @@
     <!-- Main Content -->
     <div id="contentWrapper">
         <div id="contentInner" class="blog-feed">
-          <div class="feed-article group group-1 feedFilter">
+          <div class="feed-article group group-3 feedFilter">
             <a class="imgHover" href="fromblack.php">
                 <div class="feedImg">
                     <img src="img/nightlight.jpg">
@@ -30,6 +30,18 @@
                 <h4>Sometime, Someplace</h4>
                 <h3><a href="burninganswer.php">Burning Answers</a></h3>
                 <p>There are most things in life we have (most of us) grown accustomed to and do not expect that at any point in the unimaginable infinity that is life would be snatched away.</p>
+            </div>
+          </div>
+          <div class="feed-article group group-2 feedFilter">
+            <a class="imgHover" href="randoms.php">
+                <div class="feedImg">
+                    <img src="img/randoms.jpg">
+                </div>
+            </a>
+            <div class="feedCopy">
+                <h4>Scratching an Itch</h4>
+                <h3><a href="randoms.php">Finding a place in empty space</a></h3>
+                <p>Here is where I will keep</p>
             </div>
           </div>
           <div class="all-Butn">

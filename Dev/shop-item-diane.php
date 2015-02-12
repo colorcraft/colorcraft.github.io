@@ -9,7 +9,7 @@
                     <div class="back-btn">
                         <a href="shop.php">&lt;</a>
                     </div>
-                    <img class="circle-2" src="img/Diane-print-lrg.png">
+                    <img class="circle-2 diane-lrg">
                     <div class="item-specs">
                         <h2><em>'Diane'<br><span>Etching Print</span></em></h2>
                         <p><br>Edititon Size - 02<br>Dimensions X" x X"<br><span>Paper Type &amp; Size</span></p>

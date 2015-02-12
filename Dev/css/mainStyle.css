@@ -159,12 +159,14 @@ a {
 .all-Butn{
     float: right;
     cursor: pointer;
+    display: none;
+    margin-top: 1.25rem;
 }
 .all-Butn span{
-    padding: 10px 15px;
+    padding: 0.625em 0.9375em;
     background-color: black;
     color: white;
-    font-size: 14px;
+    font-size: 0.875em;
     font-weight: 100;
 }
 /*-------Sidebar--------*/
@@ -187,8 +189,8 @@ a {
     }
     .Web-links li,
     .Blog-links li {
-        font-size: 14px;
-        padding-top: 5px;
+        font-size: 0.875rem;
+        padding-top: 0.3125rem;
     }
     .Web-links a:hover,
     .Blog-links a:hover{
@@ -206,7 +208,7 @@ a {
     margin-right: 1em;
 }
     .Web-links{
-        padding-top: 10px;
+        padding-top: 0.625rem;
     }
 #MC-item {
     width: 100%;
@@ -252,15 +254,15 @@ a {
         top: 101%;
     }
     .circle{
-        height: 310px;
-        width: 310px;
+        height: 19.375rem;
+        width: 19.375rem;
         border-radius: 100%;
         background-color: black;
         margin-left: .38em;
         overflow: hidden;
     }
     .circle-2{
-        width: 310px;
+        width: 19.375rem;
         overflow: hidden;
         padding-bottom: 1em;
         float: right;
@@ -335,7 +337,7 @@ a {
         padding-top: 1em;
     }
     .feedImg {
-        height:150px;
+        height:9.375rem;
         width: 100%;
         overflow: hidden;
     }
@@ -370,9 +372,7 @@ a {
         vertical-align: top;
     }
     .work-items img{
-        height: 150px;
         width: 100%;
-        background-color: red;
     }
     .work-items h4{
         font-size: 1.35em;
@@ -555,6 +555,9 @@ input[type=checkbox]:checked ~ #menu{
         width: 50%;
         margin-top: 6.8em;
     }
+    .all-Butn{
+        display: block;
+    }
 }
 @media screen and (min-width : 40em) {
     .nav-hed h1{font-size: 4.05em;}
@@ -653,8 +656,8 @@ input[type=checkbox]:checked ~ #menu{
         width: 77%;
     }
     .circle{
-        height: 308px;
-        width: 308px;
+        height: 19.25rem;
+        width: 19.25rem;
     }
     #Sub-Nav{
         padding-left: .812em;
@@ -668,8 +671,8 @@ input[type=checkbox]:checked ~ #menu{
         width: 65%;
     }
     .circle{
-        height: 330px;
-        width: 330px;
+        height: 20.625rem;
+        width: 20.625rem;
     }
     .MC-item-img{
         width: 34%;

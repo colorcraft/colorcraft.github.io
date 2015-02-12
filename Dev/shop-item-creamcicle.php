@@ -9,7 +9,7 @@
                     <div class="back-btn">
                         <a href="shop.php">&lt;</a>
                     </div>
-                    <img class="circle-2" src="img/cream-cicle-lrg.png">
+                    <img class="circle-2 cream-cicle-lrg">
                     <div class="item-specs">
                         <h2><em>Orange CreamCicle<br><span>Screen Wallpaper</span></em></h2>
                         <p><br>Find your fit<br><span>For Screens &amp; Size</span></p>

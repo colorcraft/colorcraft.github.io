@@ -8,12 +8,12 @@
             <a href="work.php">&lt;</a>
         </div>
         <div class="workIMG">
-            <img src="./img/plat_SiteVersions.jpg">
+            <img src="./img/tms.png">
         </div>
         <div class="workDetails">
-            <h4>// Platinum ABQ //</h4>
+            <h4>// The Maine String //</h4>
             <p>PLACEHOLDER COPY====There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
-            <a target="_blank" href="http://www.platinumabq.com"><span class="workLink">Visit Their Site</span></a>
+            <!--<a target="_blank" href="http://www.anchorage1770.com"><span class="workLink">Visit Their Site</span></a>-->
         </div>
     </div>
 </div>
