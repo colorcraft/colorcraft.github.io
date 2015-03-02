@@ -6,11 +6,43 @@
         <div id="Hed-img" class="imgBox"></div>
     </div>
     
-    <?php include 'sidebar-left.php';?>
     
         <!-- Main Content -->
     <div id="indexWrapper">
         <div id="contentInner">
+            <div class="mc-item-block">
+                <div class="index-post">
+                    <div>
+                        <div class="index-hover">
+                            <h3>Post Title</h3>
+                            <h5>Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption</h5>
+                        </div>
+                        <img src="img/index/img-1.jpg">
+                    </div>
+                     <div>
+                        <div class="index-hover">
+                            <h3>Post Title</h3>
+                            <h5>Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption</h5>
+                        </div>
+                        <img src="img/index/img-2.jpg">
+                    </div>
+                     <div>
+                        <div class="index-hover">
+                            <h3>Post Title</h3>
+                            <h5>Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption</h5>
+                        </div>
+                        <img src="img/index/img-3.jpg">
+                    </div>
+                     <div>
+                        <div class="index-hover">
+                            <h3>Post Title</h3>
+                            <h5>Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption Post Desctiption</h5>
+                        </div>
+                        <img src="img/index/img-4.jpg">
+                    </div>
+                </div>
+            </div>
+<!--            
             <div class="mc-item">
               <div class="MC-item-img">
                 <img src="img/nightlight.jpg">
@@ -56,7 +88,6 @@
         </div>
     </div>
    
-   <?php include 'sidebar-right.php';?>
    <?php include 'footer.php';?>
     
 </body>
