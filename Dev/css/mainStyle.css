@@ -169,7 +169,8 @@ a {
     font-size: 0.875em;
     font-weight: 100;
 }
-/*-------Sidebar--------*/
+/* sidebar
+-------------------------------------------------*/
 #SideBar {
     display: none;
     margin-left: 1em;
@@ -276,7 +277,8 @@ div.index-post > div {
     color: rgba(0,0,0,1);
 }
 
-/*-----------  Shop Items ------------  */
+/* shop items 
+----------------------------------------------*/
 .shopFeed{
     width: 95%;
     margin: auto;
@@ -401,7 +403,8 @@ div.index-post > div {
     .feedCopy a:hover{
         border-bottom: 2px solid black;
     }
-<!------      WORK      ------>
+/* work      
+---------------------------------------------------*/
     .work-items li{
         display: inline-block;
         width: 100%;

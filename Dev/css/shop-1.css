@@ -25,7 +25,8 @@
         height: 20em;
     }
 }
-/*-------- Images --------*/
+/* images
+--------------------------------------------------*/
 .choc-chip{background: url("../img/ice-cream-1.png") no-repeat;}
 .choc-chip:hover{ background: url("../img/ice-cream-2.png") no-repeat;}
 .choc-chip-lrg{background: url("../img/ice-cream-lrg.png") no-repeat;}
@@ -45,7 +46,8 @@
 .fishfish:hover{background: url("../img/fishfish-2.png") no-repeat;}
 .fishfish-lrg{background: url("../img/fishfish-lrg.png") no-repeat;}
 
-/*-- Background Image Position --*/
+/* background image position 
+-------------------------------------------------*/
 .choc-chip, .choc-chip:hover, .choc-chip-lrg,
 .cream-cicle, .cream-cicle:hover, .cream-cicle-lrg,
 .diane, .diane:hover, .diane-lrg,
