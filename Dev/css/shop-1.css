@@ -1,0 +1,61 @@
+/*
+------   Shop Item Images   -----
+*/
+.shop-circle {
+    height: 19.375em;
+    width: 19.375em;
+    margin: auto;
+    position: relative;
+}
+@media screen and (min-width : 38.25em) {
+    .shop-circle{
+        height: 15em;
+        width: 15em;
+    }
+}
+@media screen and (min-width : 47.1875em){
+    .shop-circle{
+        height: 17em;
+        width: 17em;
+    }
+}
+@media screen and (min-width : 51em) {
+    .shop-circle{
+        width: 20em;
+        height: 20em;
+    }
+}
+/* images
+--------------------------------------------------*/
+.choc-chip{background: url("../img/ice-cream-1.png") no-repeat;}
+.choc-chip:hover{ background: url("../img/ice-cream-2.png") no-repeat;}
+.choc-chip-lrg{background: url("../img/ice-cream-lrg.png") no-repeat;}
+.cream-cicle{background: url("../img/cream-cicle-1.png") no-repeat;}
+.cream-cicle:hover{background: url(../img/cream-cicle-2.png) no-repeat;}
+.cream-cicle-lrg{background: url("../img/cream-cicle-lrg.png") no-repeat;}
+.diane{background: url("../img/diane-print-1.png") no-repeat;}
+.diane:hover{background: url("../img/diane-print-2.png") no-repeat;}
+.diane-lrg{background: url("../img/diane-print-lrg.png") no-repeat;}
+.crime{background: url("../img/crime-1.png") no-repeat;}
+.crime:hover{background: url("../img/crime-2.png") no-repeat;}
+.crime-lrg{background: url("../img/crime-lrg.png") no-repeat;}
+.seafoam{background: url("../img/seafoam-1.png") no-repeat;}
+.seafoam:hover{background: url(../img/seafoam-2.png) no-repeat;}
+.seafoam-lrg{}
+.fishfish{background: url("../img/fishfish-1.png") no-repeat;}
+.fishfish:hover{background: url("../img/fishfish-2.png") no-repeat;}
+.fishfish-lrg{background: url("../img/fishfish-lrg.png") no-repeat;}
+
+/* background image position 
+-------------------------------------------------*/
+.choc-chip, .choc-chip:hover, .choc-chip-lrg,
+.cream-cicle, .cream-cicle:hover, .cream-cicle-lrg,
+.diane, .diane:hover, .diane-lrg,
+.crime, .crime:hover, .crime-lrg,
+.seafoam, .seafoam:hover, .seafoam-lrg,
+.fishfish, .fishfish:hover, .fishfish-lrg
+{
+    background-size: contain;
+    background-position: center center;
+    z-index: 10;
+}
