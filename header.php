@@ -11,7 +11,9 @@
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <meta name="author" content="ppandp">
-<meta name="Description" content="Hempstead – Responsive Retina-Ready HTML5 Portfolio" />
+<meta name="Description" content="Joseph Taylor | Web Developer | Visual Designer" />    
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/favicon.ico">
 <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/contact.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
