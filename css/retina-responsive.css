@@ -1,13 +1,15 @@
 @charset "utf-8";
 /* Retina Ready Images */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (min-device-pixel-ratio: 1.5),
-only screen and (min-resolution: 240dpi){
-h1#logo a { background:url(../images/bg-logo@2x.png) center no-repeat; background-size:contain; }
-
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (   min--moz-device-pixel-ratio: 1.5),
+only screen and (     -o-min-device-pixel-ratio: 3/2),
+only screen and (        min-device-pixel-ratio: 1.5),
+only screen and (                min-resolution: 144dpi),
+only screen and (                min-resolution: 1.5dppx){
+    
+h1#LogoType a { background:url(../images/bg-logo@2x.png) center no-repeat; background-size:contain; }
 .map {background:url(../images/icons/bg-map@2x.png) no-repeat center left; background-size:48px 48px;  }
 .winner {background:url(../images/icons/bg-winner@2x.png) no-repeat center; background-size:48px 48px; }
 .time {background:url(../images/icons/bg-time@2x.png) no-repeat center; background-size:48px 48px; }
