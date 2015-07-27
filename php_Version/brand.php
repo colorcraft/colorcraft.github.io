@@ -1,28 +1,32 @@
 <!-- Logos Folio Item -->
-    <div class="element clearfix col3-3 logo">
-        <picture class="images"> 
+    <div class="element clearfix col3-3 logo" itemprop="workExample">
+        <picture class="images" itemprop="image"> 
             <img src="images/branding/logo-2.jpg" alt="Molecule Research Logo" />
         </picture>
         <div class="break"></div>
-        <picture class="images"> 
+        <picture class="images" itemprop="image"> 
             <img src="images/branding/logo-4.jpg" alt="Blume Financials Logo" />
         </picture>
         <div class="break"></div>
-        <picture class="images"> 
+        <picture class="images" itemprop="image"> 
             <img src="images/branding/logo-3.jpg" alt="Pax Industries Logo" />
         </picture>
         <div class="break"></div>
-        <picture class="images"> 
+        <picture class="images" itemprop="image"> 
             <img src="images/branding/logo-5.jpg" alt="Pur Business Logo" />
         </picture>
     </div>
-    <div class="element clearfix col1-3 white auto logo">
-        <h3><strong>Logo and Brand Identity</strong></h3>
+    <div class="element clearfix col1-3 white auto logo projTitle" itemprop="description">
+        <h3 itemprop="sourceOrganization">
+            <span class="highlight">Logo and Brand Identity</span>
+        </h3>
         <div class="ct-part">
+            <p class="small">Type</p>
+            <p itemprop="name">Branding</p>
             <p class="small">Category</p>
-            <p>Branding | Logo Design</p>
+            <p itemprop="workperformed">Illustration | Logo Design</p>
             <p class="small">Date</p>
-            <p>Ongoing</p>
+            <p itemprop="dateCreated">Ongoing</p>
         </div>
         <div class="ft-part">
             <ul class="social-list">
@@ -49,20 +53,6 @@
             <p>To make my meal in a box taste better, I decided to tweak the logo, rather than the ingredients.</p>
             <p class="small">- Jarod Kintz</p>
         </blockquote>
-    </div>  
-    <div class="element  clearfix col1-3 logo"> 
-        <a class="folioLink" href="#tees" title="">
-            <picture class="images"> 
-                <img src="images/tee/thumbs.jpg" srcset="images/tee/thumbs.jpg 1x, images/tee/thumbs@2x.jpg 1.5x" alt="Next<span>Tee Shirts</span><i>→</i>" class="slip" /> 
-            </picture>
-        </a> 
-    </div>
-    <div class="element  clearfix col1-3 logo"> 
-        <a class="folioLink" href="#platinum" title="">
-            <picture class="images">
-                <img src="images/platinum/plat-thumb.jpg" srcset="images/platinum/thumbs.jpg 1x, images/platinum/thumbs@2x.jpg 1.5x" alt="Previous<span>Platinum ABQ</span><i>→</i>" class="slip" /> 
-            </picture>
-        </a>
     </div>    
     <div class="element clearfix col1-3 white back-button logo">
         <a class="folioLink" href="#portfolio" title="" class="whole-tile">

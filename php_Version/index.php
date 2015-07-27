@@ -5,10 +5,6 @@
     <div id="content">
         <div class="container">
             <div id="container" class="clearfix">
-                <div class="element clearfix col2-3 home white grid-fit">
-                    <p class="small">Making Waves</p>
-                    <h2>To engage an audience with <strong>excitement</strong> and <strong>youthful</strong> imagination. To truly <strong>feel</strong> every day that <strong>greatness</strong> is just around the corner.<br><strong>That's</strong> the goal.</h2>
-                </div>
                 <?php include'about.php'; ?>  
                 <?php include'portfolio.php'; ?>
                 <div class="element  clearfix col1-3 home white"> 
@@ -26,10 +22,14 @@
                 <?php include'contactPage.php'; ?>
                 <!-- Portfolio Items -->
                 <?php include'anchorage.php'; ?>
+                <?php include'vans.php'; ?>
                 <?php include'whtmtn.php'; ?>
                 <?php include'tms.php'; ?>
                 <?php include'plat.php'; ?>
                 <?php include'deerbrooke.php'; ?>
+                <?php include'tee.php'; ?>
+                <?php include'ipad.php'; ?>
+                <?php include'bjs.php'; ?>
                 <!-- End Portfolio Items -->
                 </div>
           <!-- end #container -->

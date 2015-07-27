@@ -1,24 +1,28 @@
 <!-- Platinum Folio Item -->
-    <div class="element clearfix col3-3 platinum">
-        <picture class="images"> 
+    <div class="element clearfix col3-3 auto platinum" itemprop="workExample">
+        <picture class="images" itemprop="image"> 
             <img src="images/platinum/plat-1.jpg" srcset="images/platinum/plat-1.jpg 1x, images/platinum/plat-1@2x.jpg 1.5x" alt="Platinum ABQ Rental Units Availability" />
         </picture>
         <div class="break"></div>
-        <picture class="images"> 
+        <picture class="images" itemprop="image"> 
             <img src="images/platinum/plat-2.jpg" srcset="images/platinum/plat-2.jpg 1x, images/platinum/plat-2@2x.jpg 1.5x" alt="Platinum ABQ Mobile Website" />
         </picture>
         <div class="break"></div>
-        <picture class="images"> 
+        <picture class="images" itemprop="image"> 
             <img src="images/platinum/plat-mag.jpg" srcset="images/platinum/plat-mag.jpg 1x, images/platinum/plat-mag@2x.jpg 1.5x" alt="Platinum ABQ Magazine Advertising" />
         </picture>    
     </div>
-    <div class="element clearfix col1-3 white auto platinum">
-        <h3><strong>Platinum ABQ</strong></h3>
+    <div class="element clearfix col1-3 white auto platinum projTitle" itemprop="description">
+        <h3 itemprop="sourceOrganization">
+            <span class="highlight">Platinum ABQ</span>
+        </h3>
         <div class="ct-part">
+            <p class="small">Type</p>
+            <p itemprop="name">Brand Design</p>
             <p class="small">Category</p>
-            <p>Web Design | Advertising</p>
+            <p itemprop="workperformed">Web &amp; Print Design</p>
             <p class="small">Site Launce</p>
-            <p>January 2015</p>
+            <p itemprop="dateCreated">January 2015</p>
         </div>
         <div class="ft-part">
             <ul class="social-list">
@@ -29,12 +33,12 @@
         <div class="ft-part student">
             <a target="_blank" href="http://platinumabq.com">
                 <p class="small">Visit Site</p>
-            <a/>
+            </a>
         </div>    
     </div>
     <div class="element clearfix col1-3 white auto platinum">
         <h4><strong>Challenge</strong></h4>
-        <p>The Client had created a very modern luxury apartment complex in the heart of Albequrques hippest district, Nob Hill. Their digital and market presence needed to relfect the standard of living they represented. The main challenge was to create an a site that would allow potential residents to shop and apply for apartments of their choosing.</p>
+        <p>The Client had created a very modern luxury apartment complex in the heart of Albequrques hippest district, Nob Hill. Their digital and market presence needed to relfect the standard of living. The main challenge was to create an a site that would allow potential residents to shop and apply for apartments of their choosing.</p>
     </div>
     <div class="element clearfix col1-3 white auto platinum">
         <h4><strong>Solution</strong></h4>
@@ -69,7 +73,7 @@
     </div>  
 -->
     <div class="element clearfix col1-3 white back-button platinum">
-        <a class="folioLink" href="#portfolio" title="" class="whole-tile">
+        <a class="folioLink whole-tile" href="#portfolio">
             <h5>Back to Portfolio<span class="arrow">→</span></h5>
         </a>
     </div>

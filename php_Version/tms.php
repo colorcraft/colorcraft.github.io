@@ -1,24 +1,28 @@
 <!--  Maine String Folio Item -->
-    <div class="element clearfix col3-3 maine">
-        <picture class="images"> 
+    <div class="element clearfix col3-3 maine" itemprop="workExample">
+        <picture class="images" itemprop="image"> 
             <img src="images/tms/item1.jpg" alt="The Maine String Logo" srcset="images/tms/item1.jpg 1x, images/tms/item1@2x.jpg 1.5x" />
         </picture>
         <div class="break"></div>
-        <picture class="images"> 
+        <picture class="images" itemprop="image"> 
             <img src="images/tms/item2.jpg" alt="The Maine String Headband Packaging" srcset="images/tms/item2.jpg 1x, images/tms/item2@2x.jpg 1.5x" />
         </picture>
         <div class="break"></div>
-        <picture class="images"> 
+        <picture class="images" itemprop="image"> 
             <img src="images/tms/item3.jpg" alt="The Maine String Hang-Tag" srcset="images/tms/item3.jpg 1x, images/tms/item3@2x.jpg 1.5x" />
         </picture>  
     </div>
-    <div class="element clearfix col1-3 white auto maine">
-        <h3><strong>The Maine String</strong></h3>
+    <div class="element clearfix col1-3 white auto maine projTitle" itemprop="description">
+        <h3 itemprop="sourceOrganization">
+            <span class="highlight">The Maine String</span>
+        </h3>
         <div class="ct-part">
+            <p class="small">Type</p>
+            <p itemprop="name">Branding</p>
             <p class="small">Category</p>
-            <p>Logo Design | Packaging</p>
+            <p itemprop="workperformed">Logo Design | Packaging</p>
             <p class="small">Date</p>
-            <p>Fall 2013</p>
+            <p itemprop="dateCreated">Fall 2014</p>
         </div>
         <div class="ft-part">
             <ul class="social-list">
@@ -28,12 +32,12 @@
         </div>
     </div>
     <div class="element clearfix col1-3 white auto maine">
-        <h4><strong>Challenge</strong></h4>
-        <p>Home-made Etsy-ish Knitware shop needed new logo and packaging. Something fresh and modern, while remaining true to what Mainers are.</p>
+        <h4><strong>Roots</strong></h4>
+        <p>Maine made knitware shop seeking Brand. Something fresh and modern, while remaining true to what Mainers are, at their roots. A culture defining; we can be sucessfull as craftspeople.</p>
     </div>
     <div class="element clearfix col1-3 white auto maine">
-        <h4><strong>Solution</strong></h4>
-        <p>It's far too easy to directly enumerate a part of a clients brand name. So the effort was to do all we could to not use the state as part of the logo. We also wanted to create a feeling of an eco-friendly company whose product and packaging could be handmade.</p>
+        <h4><strong>Approach</strong></h4>
+        <p>It's far too easy to directly enumerate a part of a clients brand name. The company needed to reflect it's eco-<br>friendliness and handmake the packaging, similar as their product.</p>
     </div>
     <div class="element clearfix col1-3 white auto maine">
         <h4><strong>Result</strong></h4>
@@ -54,7 +58,7 @@
         </a> 
     </div>  --> 
     <div class="element clearfix col1-3 white back-button maine">
-        <a class="folioLink" href="#portfolio" title="" class="whole-tile">
+        <a class="folioLink whole-tile" href="#portfolio">
             <h5>Back to Portfolio<span class="arrow">→</span></h5>
         </a>
     </div>

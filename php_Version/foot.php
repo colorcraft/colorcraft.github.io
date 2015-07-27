@@ -9,12 +9,7 @@
     <script src="js/jquery.isotope2.min.js" type="text/javascript"></script>
     <script src="js/jquery.ba-bbq.min.js" type="text/javascript"></script>
     <script src="js/jquery.isotope.load.js" type="text/javascript"></script>
-    <!--<script src="js/SmoothScroll.js" type="text/javascript"></script>-->
     <script src="js/main2.min.js" type="text/javascript"></script>
-    <!--<script src="js/jquery.form.js" type="text/javascript"></script>
-    <script src="js/input.fields.js" type="text/javascript"></script>
-    <script src="js/preloader.js" type="text/javascript"></script>
-    <script src="js/jquery.fancybox.pack.js" type="text/javascript"></script>-->
     <script src="js/jquery.sliphover.min.js"></script>
     <script>
         jQuery.noConflict;
@@ -30,16 +25,10 @@
                 jQuery("html, body").animate({ scrollTop: 0 }, 0);     
             });
         });
-    </script>    
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-58358612-3', 'auto');
-      ga('send', 'pageview');
-
+        
+//        jQuery(document).ready(function() {
+//            jQuery(".back-button").
+//        });
     </script>
   </body>
 </html>

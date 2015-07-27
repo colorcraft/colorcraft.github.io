@@ -93,15 +93,15 @@ h1#LogoType a { background:url(../images/bg-logo@2x.png) center no-repeat; backg
 }
 
 /* Desktop-only rules */
-@media only screen and (min-width: 980px) and (max-width: 1299px) {
+@media only screen and (min-width: 61.25rem) and (max-width: 81.1875rem) /*980px MinW*//*1299px MaxW*/ {
     .container {width:960px; }
-	.col3-3, .col3-3.grey, .col3-3.white, .col4-3 { width:940px; height:auto; }
+	.col3-3, .col3-3.grey, .col3-3.white, .col4-3 { width:100%; height:auto; } /*940px 58.75rem W*/
 }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-    .container {width:640px; }
-    .col3-3, .col3-3.grey, .col3-3.white, .col4-3 { width:620px; height:auto; }
+@media only screen and (min-width: 48rem) and (max-width: 58.75rem) /*768px MinW*//*979px MaxW*/ {
+    .container {width:40rem; }/*640px W*/
+    .col3-3, .col3-3.grey, .col3-3.white, .col4-3 { width:38.75rem; height:auto; } /*620px W*/
 	footer .social-list {margin-left:0 }
 }
 

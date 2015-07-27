@@ -6,8 +6,10 @@
         <div class="break"></div>
         <picture class="images"> <img src="images/anchorage/items3.jpg" srcset="images/anchorage/items3.jpg 1x, images/anchorage/items3@2x.jpg 1.5x" alt="Anchorage 1770 iPad Tablet Google Map" /></picture>    
     </div>
-    <div class="element clearfix col1-3 white auto anchor">
-        <h3><strong>Anchorage  1770</strong></h3>
+    <div class="element clearfix col1-3 white auto anchor projTitle">
+        <h3>
+            <span class="highlight">Anchorage  1770</span>
+        </h3>
         <div class="ct-part">
             <p class="small">Category</p>
             <p>Branding | Web Design</p>
@@ -36,20 +38,6 @@
         <h4><strong>Result</strong></h4>
         <p>The overall success was reached through implementation of some very exciting customized content-managed mapping and the creation of a new Identity. The "Anchor" mark is a more than well known icon and carries great meaning in many circles. I believe that it is successful in not being overused while remaining classical and elegant.</p>
     </div>
-    <div class="element  clearfix col1-3 anchor">
-        <a class="folioLink" href="#whtmtn" title="">
-            <picture class="images">
-                <img src="images/whtmtn/thumb.jpg" srcset="images/whtmtn/thumbs.jpg 1x, images/whtmtn/thumbs-lrg.jpg 1.5x" alt="Next<span>White Mountaineering</span><i>→</i>" class="slip" /> 
-            </picture>
-        </a>
-    </div>  
-    <div class="element  clearfix col1-3 anchor">
-        <a class="folioLink" href="#pad" title="">
-            <picture class="images">
-                <img src="images/iPad/thumbs.jpg" srcset="images/iPad/thumbs.jpg 1x, images/iPad/thumbs@2x.jpg 1.5x" alt="Previous<span>Digital Publication</span><i>→</i>" class="slip" /> 
-            </picture>
-        </a> 
-    </div>  
     <div class="element clearfix col1-3 white back-button anchor">
         <a class="folioLink" href="#portfolio" title="" class="whole-tile">
             <h5>Back to Portfolio<span class="arrow">→</span>

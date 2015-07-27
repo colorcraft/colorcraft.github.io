@@ -3,7 +3,7 @@
         <div id="menu-close-button">&times;</div>
         <ul id="options" class="option-set clearfix" data-option-key="filter">
             <li class="selected"> <a href="#home">Home</a> </li>
-            <li> <a class="folioLink" href="#about">Profile</a> </li>
+            <li> <a class="folioLink" href="#about">Resume</a> </li>
             <li> <a class="folioLink" href="#portfolio">Portfolio</a> </li>
             <li> <a class="folioLink" href="#skills">Skills</a> </li>
 <!--            <li> <a class="folioLink" href="#pricing">Services</a> </li>-->
