@@ -161,6 +161,7 @@ a .bottom p{width:190px;}
 .element .tag > .tag-count{text-transform:none;font-family:"Futura PT", Futura, sans-serif;;font-size:12px;}
 .icons{position:relative;height:48px;width:48px;margin-bottom:16px;margin-top:5px;}
 .icon-holder{position:relative;float:left;height:48px;width:48px;margin-top:5px;}
+.icon-float div{display: inline-block;}.icon-float p{width: 85%;float: right;padding-top: 7px;}
 .centered .icons, .centered .icon-holder{float:none;display:inline-block;}
 .map{background:url(../images/icons/bg-map.png) no-repeat center left;background-size:48px 48px;}
 .winner{background:url(../images/icons/bg-winner.png) no-repeat center;background-size:48px 48px;}

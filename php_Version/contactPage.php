@@ -1,16 +1,19 @@
 <div class="element  clearfix col2-3 contact auto">
-    <div class="col2-3 auto">
-        <picture class="images border"> 
-            <img src="images/contact-hed.jpg" alt="" />
-        </picture>
+    <div class="col2-3  auto">
+        <div class="col2-3 auto">
+            <picture class="images"> 
+                <img src="images/contact-hed.jpg" alt="" />
+            </picture>
+        </div>
+    </div>
+    <div class="col2-3 auto white-bottom icon-float">
+        <div class="icons mail"></div>
+<!--        <h3>Contact</h3>-->
+        <p>Just drop me a line if you want to work together.<br>I'm always on the lookout for the next challenge.</p>
     </div>
 </div>
 
-<div class="element clearfix col1-3 contact white">
-    <div class="icons mail"></div>
-    <h3>Contact</h3>
-    <p>Just drop me a line if you want to work together. I'm always on the lookout for the next challenge.</p>
-</div>
+
 
 <div class="element  clearfix col1-3 contact white auto" itemscope itemtype="http://schema.org/Person">
     <p class="small">Details</p>
