@@ -42,14 +42,12 @@
     </div>
     <div class="element clearfix col1-3 white auto deer">
         <h4><strong>Solution</strong></h4>
-        <p>Because speed was essential the code needed to be written in browser. This allowed design to be seen immediately and ultimately helped the site be light and quick. <a href="http://schema.org" target="_blank" >Schema.Org</a> meta-data markup was used to help search engines parse the sites data.</p>
+        <p>Because speed was essential the code needed to be written in browser. This allowed design to be seen immediately and ultimately helped the site be light and quick.</p>
     </div>
-<!--
     <div class="element clearfix col1-3 white auto deer">
         <h4><strong>Result</strong></h4>
         <p>A successful build for a coming-soon/teaser page for this new community developer. The design was fast, modern, and utilized cutting edge SEO practices. The markup was minimal and utilized PHP templates for production deployment.</p>
     </div>
--->
     <div class="element clearfix col1-3 white back-button deer">
         <a class="folioLink whole-tile" href="#portfolio">
             <h5>Back to Portfolio<span class="arrow">→</span></h5>

@@ -111,3 +111,16 @@
         </picture>
     </a>
 </div>
+
+<div class="element  clearfix col1-3 portfolio white border"> 
+    <a class="folioLink" href="https://hbr.org/2015/09/design-thinking-comes-of-age" target="_blank">
+        <p class="small">Good Reads</p>
+        <h3>It Starts Somewhere</h3>
+        <p class="small">A shared article by innovators and thinkers who are shaping the industry.</p>
+        <div class="bottom">
+            <div class="icons notes"></div>
+                <p class="alignleft">Get some</p>
+                <span class="arrow">→</span>
+        </div>    
+    </a>
+</div>
