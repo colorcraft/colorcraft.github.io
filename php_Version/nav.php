@@ -6,7 +6,6 @@
             <li> <a class="folioLink" href="#about">Resume</a> </li>
             <li> <a class="folioLink" href="#portfolio">Portfolio</a> </li>
             <li> <a class="folioLink" href="#skills">Skills</a> </li>
-<!--            <li> <a class="folioLink" href="#pricing">Services</a> </li>-->
             <li> <a class="folioLink" href="#contact">Contact</a> </li>
         </ul>
         <div class="social-links">

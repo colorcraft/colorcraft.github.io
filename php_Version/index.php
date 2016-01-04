@@ -8,6 +8,18 @@
                 <?php include'about.php'; ?>  
                 <?php include'portfolio.php'; ?>
                 <div class="element  clearfix col1-3 home white"> 
+                    <a href="#portfolio" data-title="" class="whole-tile">
+                        <p class="small">All Directions</p>
+                        <h3>View My Portfolio</h3>
+                        <div class="bottom">
+                            <div class="icons tape"></div>
+                            <p class="alignleft">Express your moods. Black-Moods inspiration board and dreamcatcher.  Soon...</p>
+                            <span class="arrow">→</span>
+                        </div>
+                    </a> 
+                </div>
+<!--
+                <div class="element  clearfix col1-3 home white"> 
                     <a target="_blank" href="http://black-moods.com" data-title="" class="whole-tile">
                         <p class="small">All Directions</p>
                         <h3>Feeling Colorful</h3>
@@ -18,15 +30,12 @@
                         </div>
                     </a> 
                 </div>
+-->
                 <?php include'skills.php'; ?>
                 <?php include'contactPage.php'; ?>
                 <!-- Portfolio Items -->
-                <?php include'anchorage.php'; ?>
                 <?php include'vans.php'; ?>
-                <?php include'whtmtn.php'; ?>
                 <?php include'tms.php'; ?>
-                <?php include'plat.php'; ?>
-                <?php include'deerbrooke.php'; ?>
                 <?php include'tee.php'; ?>
                 <?php include'ipad.php'; ?>
                 <?php include'bjs.php'; ?>
