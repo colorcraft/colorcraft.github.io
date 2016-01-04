@@ -1,28 +1,28 @@
 <!--  12 deer Folio Item -->
-    <div class="element clearfix col3-3 deer" itemprop="workExample">
-        <picture class="images" itemprop="image"> 
+    <div class="element clearfix col3-3 deer">
+        <picture class="images"> 
             <img src="images/deerbrooke/item1.jpg" alt="Deerbrooke Website Cinema Display Version" srcset="images/deerbrooke/item1.jpg 1x, images/deerbrooke/item1@2x.jpg 1.5x" />
         </picture>
         <div class="break"></div>
-        <picture class="images" itemprop="image">
+        <picture class="images">
             <img src="images/deerbrooke/item2.jpg" alt="Deerbrooke Website Tablet Version" srcset="images/deerbrooke/item2.jpg 1x, images/deerbrooke/item2@2x.jpg 1.5x" />
         </picture>
         <div class="break"></div>
-        <picture class="images" itemprop="image">
+        <picture class="images">
             <img src="images/deerbrooke/item3.jpg" alt="Deerbrooke Website Tablet Version" srcset="images/deerbrooke/item3.jpg 1x, images/deerbrooke/item3@2x.jpg 1.5x" />
         </picture> 
     </div>
     <div class="element clearfix col1-3 white auto deer projTitle" itemprop="description">
-        <h3 itemprop="sourceOrganization">
+        <h3>
             <span class="highlight">DEERBROOKE</span>
         </h3>
     <div class="ct-part">
         <p class="small">Type</p>
-        <p itemprop="name">Web Design</p>
+        <p>Web Design</p>
         <p class="small">Category</p>
-        <p itemprop="workperformed">Front-End Web Development</p>
+        <p>Front-End Web Development</p>
         <p class="small">Site Launched</p>
-        <p itemprop="dateCreated">May 2015</p>
+        <p>May 2015</p>
     </div>
         <div class="ft-part">
             <ul class="social-list">

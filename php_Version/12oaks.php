@@ -1,24 +1,24 @@
 <!--  12 Oaks Folio Item -->
-    <div class="element clearfix col3-3 oaks" itemprop="workExample">
-        <picture class="images" itemprop="image"> 
+    <div class="element clearfix col3-3 oaks">
+        <picture class="images"> 
             <img src="images/oaks/items2.jpg" alt="12 Oaks North Carolina Notebook Display Website Version" />
         </picture>
         <div class="break"></div>
-        <picture class="images" itemprop="image">
+        <picture class="images">
             <img src="images/oaks/items3.jpg" alt="12 Oaks North Carolina Tablet Website" />
         </picture>       
     </div>
-    <div class="element clearfix col1-3 white auto oaks projTitle" itemprop="description">
-        <h3 itemprop="sourceOrganization">
+    <div class="element clearfix col1-3 white auto oaks projTitle">
+        <h3>
             <span class="highlight">12 Oaks</span>
         </h3>
         <div class="ct-part">
             <p class="small">Type</p>
-            <p itemprop="name">Web Design</p>
+            <p>Web Design</p>
             <p class="small">Category</p>
-            <p itemprop="workperformed">Front-End Web Development</p>
+            <p>Front-End Web Development</p>
             <p class="small">Site Launched</p>
-            <p itemprop="dateCreated">March 2015</p>
+            <p>March 2015</p>
         </div>
         <div class="ft-part">
             <ul class="social-list">

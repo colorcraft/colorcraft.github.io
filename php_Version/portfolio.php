@@ -9,7 +9,7 @@
 <div class="element clearfix col2-3 home white grid-fit">
     <p class="small">Making Waves</p>
     <h2>
-        To<span class="highlight">engage</span> an audience with excitement and <span class="highlight">youthful imagination</span>. To truly feel every day that greatness is just around the corner. <span class="highlight">That's the goal.</span>
+        To<span class="highlight"> engage</span> an audience with excitement and <span class="highlight">youthful imagination</span>. To truly feel every day that greatness is just around the corner. <span class="highlight">That's the goal.</span>
     </h2>
 </div>
 
