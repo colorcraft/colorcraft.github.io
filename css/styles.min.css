@@ -33,6 +33,7 @@ a{text-decoration:none;}
 p a{color:#555;text-decoration:underline;}
 p a:hover{color:#2b2b2b;}
 a p{color:#555;}
+span p{padding: 0 !important;}
 p.small{font-size:11px !important;text-transform:uppercase;font-weight:700;font-family:'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;color:#2b2b2b;padding:0 0 22px 0;letter-spacing:2px;}
 a p.small{color:#2b2b2b}
 .col2-3.half p.small{padding:0 0 17px 0;}
@@ -124,7 +125,7 @@ a h3 span{text-decoration:none !important}
 .col1-3.auto, .col2-3.auto, .col3-3.auto{height:auto;}
 .col2-3.half{height:280px;}
 .col3-3.half{height:280px;}
-.col2-3.full{height:auto}
+.col2-3.full{height:auto; background:#ffffff;}
 .col1-3.grey{padding:30px 35px 17px 35px;background-color: rgba(248, 248, 248, 0.7);;width:300px;}
 .col2-3.grey, .col3-3.grey, .col4-3.grey{padding:45px 60px 44px 50px;background-color: rgba(248, 248, 248, 0.7);}
 .col1-3.white{padding:30px 35px 17px 35px;background:#fff}
