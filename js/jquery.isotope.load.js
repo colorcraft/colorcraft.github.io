@@ -50,7 +50,7 @@ jQuery(window).load(function($){
 			var theFilter = window.location.hash.replace( /^#/, '');
 			
 			if( theFilter == false )
-				theFilter = 'home';
+				theFilter = 'portfolio';
 				
 			$container.isotope({
 				filter: '.' + theFilter
