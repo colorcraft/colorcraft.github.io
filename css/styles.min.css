@@ -234,6 +234,7 @@ a .bottom p{width:190px;}
 .images{display:block;position:relative;background:#000;}
 .images img{width:100%;display:block;max-width:100% !important;z-index:9}
 .images.dark img{opacity:0.3;background:#000;}
+.folioWide{height: 430px;}
 img{box-shadow:#000 0 0 0}
 .videos{width:940px;height:538px;}
 .sliphoveritemTitle{font-size:11px !important;text-transform:uppercase;font-weight:700;font-family:'Open Sans', Arial, Helvetica, sans-serif;letter-spacing:2px;line-height:1.5;display:block;text-decoration:none !important;}
